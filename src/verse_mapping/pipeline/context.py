@@ -62,4 +62,5 @@ Return as JSON with keys: flow_summary, genre, genre_rationale, redemptive_histo
         redemptive_historical_tag=result.get("redemptive_historical_tag", ""),
         redemptive_historical_rationale=result.get("redemptive_historical_rationale", ""),
         thought_process=result.get("thought_process", ""),
+        prompts_used=[prompt],
     )

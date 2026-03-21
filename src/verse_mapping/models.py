@@ -36,6 +36,7 @@ class ContextStep(BaseModel):
     redemptive_historical_tag: str
     redemptive_historical_rationale: str
     thought_process: str = ""
+    prompts_used: list[str] = Field(default_factory=list)
 
 
 # --- Step 2: Translation Comparison ---
@@ -57,6 +58,7 @@ class TranslationComparison(BaseModel):
     variant_signals: list[VariantSignal]
     impact_summary: str
     thought_process: str = ""
+    prompts_used: list[str] = Field(default_factory=list)
 
 
 # --- Step 3: Keywords / Word Study ---
@@ -84,6 +86,7 @@ class WordStudy(BaseModel):
 class KeywordsStep(BaseModel):
     keywords: list[WordStudy] = Field(min_length=3, max_length=12)
     thought_process: str = ""
+    prompts_used: list[str] = Field(default_factory=list)
 
 
 # --- Step 4: Cross-References ---
@@ -116,6 +119,7 @@ class CrossRefsStep(BaseModel):
     edges: list[CrossRefEdge]
     clusters: list[ThematicCluster] = Field(min_length=3, max_length=8)
     thought_process: str = ""
+    prompts_used: list[str] = Field(default_factory=list)
 
 
 # --- Step 5: Application ---
@@ -137,6 +141,7 @@ class ApplicationStep(BaseModel):
     principles: list[Principle] = Field(min_length=2, max_length=4)
     prompts: list[ApplicationPrompt] = Field(min_length=3, max_length=6)
     thought_process: str = ""
+    prompts_used: list[str] = Field(default_factory=list)
 
 
 # --- Full Output ---

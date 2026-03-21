@@ -28,6 +28,26 @@ def _render_thought(thought: str, lines: list[str]) -> None:
         lines.append("")
 
 
+def _render_prompts(prompts_used: list[str], step_label: str, lines: list[str]) -> None:
+    """Render LLM prompts in a collapsible details block."""
+    if not prompts_used:
+        return
+    lines.append("")
+    lines.append(f"<details>")
+    lines.append(f"<summary><strong>Prompts sent to LLM — {step_label}</strong> ({len(prompts_used)} prompt{'s' if len(prompts_used) != 1 else ''})</summary>")
+    lines.append("")
+    for i, prompt in enumerate(prompts_used, 1):
+        if len(prompts_used) > 1:
+            lines.append(f"**Prompt {i}:**")
+            lines.append("")
+        lines.append("```text")
+        lines.append(prompt.strip())
+        lines.append("```")
+        lines.append("")
+    lines.append("</details>")
+    lines.append("")
+
+
 def render_report(output: VerseMapOutput) -> str:
     """Render a VerseMapOutput as a structured human-readable report."""
     lines: list[str] = []
@@ -50,6 +70,7 @@ def render_report(output: VerseMapOutput) -> str:
     lines.append(f"**Redemptive-Historical Placement:** {ctx.redemptive_historical_tag}")
     lines.append(f"> {_L(ctx.redemptive_historical_rationale)}")
     _render_thought(ctx.thought_process, lines)
+    _render_prompts(ctx.prompts_used, "Step 1: Context", lines)
 
     # --- Step 2: Translation Comparison ---
     tc = output.step2_translations
@@ -74,6 +95,7 @@ def render_report(output: VerseMapOutput) -> str:
         lines.append(f"**Impact Summary:** {_L(tc.impact_summary)}")
         lines.append("")
     _render_thought(tc.thought_process, lines)
+    _render_prompts(tc.prompts_used, "Step 2: Translation Comparison", lines)
 
     # --- Step 3: Keywords / Word Study ---
     kw = output.step3_keywords
@@ -103,6 +125,8 @@ def render_report(output: VerseMapOutput) -> str:
             lines.append(f"- **Sources:** {', '.join(linked_sources)}")
         _render_thought(ws.thought_process, lines)
         lines.append("")
+
+    _render_prompts(kw.prompts_used, "Step 3: Keyword / Word Study", lines)
 
     # --- Step 4: Cross-References ---
     cr = output.step4_crossrefs
@@ -135,6 +159,8 @@ def render_report(output: VerseMapOutput) -> str:
             lines.append(f"- {bible_link(ref)}")
         lines.append("")
 
+    _render_prompts(cr.prompts_used, "Step 4: Cross-References", lines)
+
     # --- Step 5: Application ---
     app = output.step5_application
     lines.append("## 5. Application")
@@ -159,5 +185,7 @@ def render_report(output: VerseMapOutput) -> str:
         if prompt.condition_note:
             lines.append(f"  - Note: {_L(prompt.condition_note)}")
     lines.append("")
+
+    _render_prompts(app.prompts_used, "Step 5: Application", lines)
 
     return "\n".join(lines)

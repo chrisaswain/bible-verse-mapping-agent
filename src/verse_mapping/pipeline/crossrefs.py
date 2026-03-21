@@ -104,4 +104,4 @@ Return as JSON: {{"edges": [...], "clusters": [...], "thought_process": "..."}}"
     if len(clusters) > config.max_clusters:
         clusters = clusters[: config.max_clusters]
 
-    return CrossRefsStep(edges=edges, clusters=clusters, thought_process=step_thought)
+    return CrossRefsStep(edges=edges, clusters=clusters, thought_process=step_thought, prompts_used=[prompt])

@@ -35,6 +35,7 @@ async def run_translation_step(
         renderings.append(TranslationRendering(translation=r["translation"], text=text))
 
     raw_signals = comparison.get("variant_signals", [])
+    prompts_used: list[str] = []
 
     # If signals are sparse, ask LLM for deeper analysis
     if len(raw_signals) < 2 and any(r.text for r in renderings):
@@ -50,6 +51,7 @@ word, grammatical ambiguity, or textual variant drives the difference.
 Return JSON array of objects with keys: keyword, translations_differ (array of
 "TRANSLATION: 'rendering'" entries showing each translation's choice), impact (one sentence
 on interpretive significance, citing the original-language word that causes the divergence)."""
+        prompts_used.append(prompt)
         llm_signals = await llm_fn(prompt)
         if isinstance(llm_signals, list):
             raw_signals = llm_signals
@@ -72,6 +74,7 @@ Return JSON with keys:
 - thought_process: explain your reasoning — how you compared the translations, which differences
   matter most and why, and what original-language evidence drives the divergences. Cite specific
   Greek/Hebrew terms and the translations that render them differently."""
+    prompts_used.append(impact_prompt)
     impact_result = await llm_fn(impact_prompt)
     if isinstance(impact_result, str):
         impact_summary = impact_result
@@ -89,4 +92,5 @@ Return JSON with keys:
         variant_signals=variant_signals,
         impact_summary=impact_summary,
         thought_process=thought_process,
+        prompts_used=prompts_used,
     )

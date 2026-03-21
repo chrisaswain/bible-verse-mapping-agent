@@ -98,4 +98,4 @@ Return as JSON: {{"principles": [...], "prompts": [...], "thought_process": "...
         for p in result.get("prompts", [])
     ]
 
-    return ApplicationStep(principles=principles, prompts=prompts, thought_process=step_thought)
+    return ApplicationStep(principles=principles, prompts=prompts, thought_process=step_thought, prompts_used=[prompt])

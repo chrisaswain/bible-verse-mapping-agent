@@ -108,4 +108,4 @@ Return as JSON: {{"keywords": [...], "thought_process": "..."}}"""
         if word_studies:
             word_studies[0].influenced_by_translation_diff = True
 
-    return KeywordsStep(keywords=word_studies, thought_process=step_thought)
+    return KeywordsStep(keywords=word_studies, thought_process=step_thought, prompts_used=[prompt])
