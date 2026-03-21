@@ -1,0 +1,265 @@
+{
+  "reference": "Isaiah 53:5-6",
+  "step1_context": {
+    "reference": {
+      "raw": "Isaiah 53:5-6",
+      "spans": [{"book": "Isaiah", "chapter": 53, "verse_start": 5, "verse_end": 6}]
+    },
+    "context_window": [
+      {"book": "Isaiah", "chapter": 52, "verse_start": 13, "verse_end": null},
+      {"book": "Isaiah", "chapter": 53, "verse_start": 1, "verse_end": 12}
+    ],
+    "flow_summary": "The Fourth Servant Song (Isaiah 52:13\u201353:12) portrays a mysterious figure despised and rejected by humanity. The passage moves from the Servant\u2019s disfigurement and rejection (52:13\u201353:3), through the vicarious nature of his suffering (53:4\u20136), to his silent submission (53:7\u20139), and finally to his vindication and the fruit of his anguish (53:10\u201312). Verses 5\u20136 stand at the theological center: the Servant is pierced for the transgressions of others, crushed for their iniquities, and through his wounds healing comes. Verse 6 universalizes human guilt\u2014all have gone astray like sheep\u2014and declares that the LORD has laid on the Servant the iniquity of all.",
+    "genre": "Prophetic poetry",
+    "genre_rationale": "Isaiah 53 is part of the Servant Songs, written in elevated Hebrew poetry within a prophetic oracle. It employs parallelism, figurative language, and prophetic vision.",
+    "redemptive_historical_tag": "Cross",
+    "redemptive_historical_rationale": "The Suffering Servant\u2019s vicarious, substitutionary suffering anticipates the atoning death of Christ on the cross. The New Testament explicitly applies this passage to Jesus (Matthew 8:17; Acts 8:32\u201335; 1 Peter 2:24\u201325)."
+  },
+  "step2_translations": {
+    "always_included": true,
+    "renderings": [
+      {"translation": "KJV", "text": "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed. All we like sheep have gone astray; we have turned every one to his own way; and the LORD hath laid on him the iniquity of us all."},
+      {"translation": "ESV", "text": "But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his wounds we are healed. All we like sheep have gone astray; we have turned\u2014every one\u2014to his own way; and the LORD has laid on him the iniquity of us all."},
+      {"translation": "NIV", "text": "But he was pierced for our transgressions, he was crushed for our iniquities; the punishment that brought us peace was on him, and by his wounds we are healed. We all, like sheep, have gone astray, each of us has turned to our own way; and the LORD has laid on him the iniquity of us all."}
+    ],
+    "variant_signals": [
+      {
+        "keyword": "wounded / pierced",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV renders chalal as 'wounded' while ESV and NIV use 'pierced.' The latter more precisely reflects the violent, penetrating nature of the Hebrew verb and resonates with the New Testament piercing motif (John 19:34, Zechariah 12:10)."
+      },
+      {
+        "keyword": "chastisement / punishment",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV and ESV retain 'chastisement' (musar), which carries overtones of corrective discipline, while NIV uses 'punishment,' emphasizing penal consequences. This distinction shapes whether the suffering is understood primarily as disciplinary or retributive."
+      },
+      {
+        "keyword": "stripes / wounds",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV\u2019s 'stripes' (chavvurah) evokes the image of lash marks, while ESV and NIV use 'wounds,' a broader term. 'Stripes' emphasizes the specific mode of suffering; 'wounds' generalizes the concept of injury that brings healing."
+      }
+    ],
+    "impact_summary": "The major translation differences revolve around three Hebrew terms: chalal ('wounded'/'pierced'), musar ('chastisement'/'punishment'), and chavvurah ('stripes'/'wounds'). These variations affect the vividness and theological precision of the substitutionary atonement portrayed\u2014whether the emphasis falls on penetrating violence, corrective discipline versus penal suffering, and specific lashing versus general injury. All translations preserve the core theology: the Servant suffers vicariously so that others are healed and made whole."
+  },
+  "step3_keywords": {
+    "keywords": [
+      {
+        "keyword": "pierced/wounded",
+        "lemma": "\u05d7\u05b8\u05dc\u05b7\u05dc",
+        "transliteration": "chalal",
+        "lexical_id": "H2490",
+        "language": "Hebrew",
+        "gloss_range": ["to pierce", "to wound", "to profane", "to defile"],
+        "usage_examples": [
+          {"reference": "Psalm 109:22", "snippet": "my heart is wounded (chalal) within me"},
+          {"reference": "Ezekiel 28:9", "snippet": "Will you still say, 'I am a god,' in the presence of those who slay (chalal) you?"}
+        ],
+        "possible_meanings": ["pierced through fatally", "wounded grievously", "profaned or violated"],
+        "meaning_in_context": "Fatally pierced or mortally wounded\u2014describing the Servant\u2019s violent, substitutionary death on behalf of transgressors",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "chastisement/punishment",
+        "lemma": "\u05de\u05d5\u05bc\u05e1\u05b8\u05e8",
+        "transliteration": "musar",
+        "lexical_id": "H4148",
+        "language": "Hebrew",
+        "gloss_range": ["discipline", "chastisement", "correction", "instruction"],
+        "usage_examples": [
+          {"reference": "Proverbs 3:11", "snippet": "do not despise the LORD\u2019s discipline (musar)"},
+          {"reference": "Proverbs 1:2", "snippet": "for gaining wisdom and instruction (musar)"}
+        ],
+        "possible_meanings": ["corrective discipline", "penal punishment", "moral instruction"],
+        "meaning_in_context": "The penalty or corrective suffering borne by the Servant that secures peace (shalom) for others\u2014combining the ideas of punishment due and the restoration it produces",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "healed",
+        "lemma": "\u05e8\u05b8\u05e4\u05b8\u05d0",
+        "transliteration": "rapha",
+        "lexical_id": "H7495",
+        "language": "Hebrew",
+        "gloss_range": ["to heal", "to cure", "to restore"],
+        "usage_examples": [
+          {"reference": "Exodus 15:26", "snippet": "I am the LORD who heals (rapha) you"},
+          {"reference": "Psalm 103:3", "snippet": "who heals (rapha) all your diseases"}
+        ],
+        "possible_meanings": ["physical healing", "spiritual restoration", "national restoration"],
+        "meaning_in_context": "Spiritual healing and restoration from the sickness of sin\u2014the Servant\u2019s wounds become the means by which broken humanity is made whole before God",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "crushed",
+        "lemma": "\u05d3\u05b8\u05bc\u05db\u05b8\u05d0",
+        "transliteration": "daka",
+        "lexical_id": "H1792",
+        "language": "Hebrew",
+        "gloss_range": ["to crush", "to break in pieces", "to oppress"],
+        "usage_examples": [
+          {"reference": "Psalm 51:17", "snippet": "a broken and crushed (daka) heart, O God, you will not despise"},
+          {"reference": "Isaiah 53:10", "snippet": "it was the will of the LORD to crush (daka) him"}
+        ],
+        "possible_meanings": ["physically crushed", "utterly broken", "shattered under divine judgment"],
+        "meaning_in_context": "The Servant is utterly broken and shattered under the weight of the iniquities placed upon him\u2014emphasizing the completeness of the suffering endured",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "gone astray",
+        "lemma": "\u05ea\u05b8\u05bc\u05e2\u05b8\u05d4",
+        "transliteration": "taah",
+        "lexical_id": "H8582",
+        "language": "Hebrew",
+        "gloss_range": ["to wander", "to go astray", "to err", "to stagger"],
+        "usage_examples": [
+          {"reference": "Psalm 119:176", "snippet": "I have gone astray (taah) like a lost sheep"},
+          {"reference": "Ezekiel 34:6", "snippet": "My sheep wandered (taah) over all the mountains"}
+        ],
+        "possible_meanings": ["wandering aimlessly", "moral deviation from God\u2019s way", "willful straying"],
+        "meaning_in_context": "Universal human rebellion pictured as sheep straying from the shepherd\u2014every person has turned to his own autonomous path away from God",
+        "influenced_by_translation_diff": false
+      }
+    ]
+  },
+  "step4_crossrefs": {
+    "edges": [
+      {
+        "source": "Isaiah 53:5-6",
+        "target": "1 Peter 2:24-25",
+        "relationship_types": ["direct_quotation", "theological_development"],
+        "score": 97,
+        "score_breakdown": {"lexical": 24, "thematic": 25, "structural": 23, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "He himself bore our sins in his body on the tree, that we might die to sin and live to righteousness. By his wounds you have been healed. For you were straying like sheep, but have now returned to the Shepherd."
+      },
+      {
+        "source": "Isaiah 53:5-6",
+        "target": "Romans 4:25",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 88,
+        "score_breakdown": {"lexical": 18, "thematic": 24, "structural": 21, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "He was delivered up for our trespasses and raised for our justification."
+      },
+      {
+        "source": "Isaiah 53:5-6",
+        "target": "Matthew 8:17",
+        "relationship_types": ["direct_quotation", "fulfillment"],
+        "score": 90,
+        "score_breakdown": {"lexical": 22, "thematic": 24, "structural": 20, "theological": 24},
+        "provenance": "openbible",
+        "snippet": "This was to fulfill what was spoken by the prophet Isaiah: 'He took our illnesses and bore our diseases.'"
+      },
+      {
+        "source": "Isaiah 53:5-6",
+        "target": "2 Corinthians 5:21",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 91,
+        "score_breakdown": {"lexical": 17, "thematic": 25, "structural": 24, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God."
+      },
+      {
+        "source": "Isaiah 53:5-6",
+        "target": "Romans 3:23-25",
+        "relationship_types": ["thematic_parallel"],
+        "score": 82,
+        "score_breakdown": {"lexical": 15, "thematic": 23, "structural": 20, "theological": 24},
+        "provenance": "agent",
+        "snippet": "For all have sinned and fall short of the glory of God, and are justified by his grace as a gift, through the redemption that is in Christ Jesus, whom God put forward as a propitiation by his blood."
+      },
+      {
+        "source": "Isaiah 53:5-6",
+        "target": "Isaiah 53:10-12",
+        "relationship_types": ["structural_parallel", "thematic_parallel"],
+        "score": 93,
+        "score_breakdown": {"lexical": 22, "thematic": 25, "structural": 24, "theological": 22},
+        "provenance": "agent",
+        "snippet": "Yet it was the will of the LORD to crush him; he has put him to grief... he shall bear their iniquities... he bore the sin of many and makes intercession for the transgressors."
+      },
+      {
+        "source": "Isaiah 53:5-6",
+        "target": "Psalm 22:1-18",
+        "relationship_types": ["typological", "thematic_parallel"],
+        "score": 80,
+        "score_breakdown": {"lexical": 14, "thematic": 23, "structural": 20, "theological": 23},
+        "provenance": "agent",
+        "snippet": "My God, my God, why have you forsaken me?... they have pierced my hands and feet... they divide my garments among them."
+      }
+    ],
+    "clusters": [
+      {
+        "name": "Vicarious Substitutionary Atonement",
+        "rationale": "Passages that develop the theology of one bearing the penalty in the place of others, directly echoing Isaiah 53\u2019s substitutionary framework",
+        "edges": ["1 Peter 2:24-25", "2 Corinthians 5:21", "Romans 4:25"]
+      },
+      {
+        "name": "Universal Human Sinfulness",
+        "rationale": "Passages paralleling the 'all we like sheep have gone astray' theme of universal guilt and the need for divine intervention",
+        "edges": ["Romans 3:23-25", "1 Peter 2:24-25"]
+      },
+      {
+        "name": "Healing Through Suffering",
+        "rationale": "Passages connecting the Servant\u2019s wounds and suffering with the healing, restoration, or redemption of God\u2019s people",
+        "edges": ["1 Peter 2:24-25", "Matthew 8:17"]
+      },
+      {
+        "name": "Messianic Suffering Prophecy",
+        "rationale": "Old Testament passages that prophetically depict the suffering of God\u2019s anointed one, forming a composite portrait fulfilled in Christ",
+        "edges": ["Isaiah 53:10-12", "Psalm 22:1-18"]
+      },
+      {
+        "name": "New Testament Fulfillment Citations",
+        "rationale": "Passages where New Testament authors explicitly cite or allude to Isaiah 53 as fulfilled in Jesus",
+        "edges": ["Matthew 8:17", "1 Peter 2:24-25", "Romans 4:25"]
+      }
+    ]
+  },
+  "step5_application": {
+    "principles": [
+      {
+        "statement": "Healing and peace with God come only through the Servant\u2019s substitutionary suffering",
+        "grounding": "Verse 5 establishes a direct causal link: he was pierced 'for our transgressions,' crushed 'for our iniquities,' and 'by his wounds we are healed.' The suffering is not accidental but purposeful and vicarious."
+      },
+      {
+        "statement": "Every human being shares in the universal condition of straying from God",
+        "grounding": "Verse 6 uses emphatic, all-encompassing language\u2014'all we like sheep have gone astray; we have turned every one to his own way'\u2014leaving no room for self-exemption from the diagnosis of sin."
+      },
+      {
+        "statement": "God is the initiator of redemption, laying the cost on the Servant rather than on the guilty",
+        "grounding": "The climactic clause 'the LORD has laid on him the iniquity of us all' reveals divine initiative: God himself transfers the burden of guilt onto the willing Servant, demonstrating sovereign grace."
+      }
+    ],
+    "prompts": [
+      {
+        "category": "belief",
+        "text": "Do I truly believe that my peace with God rests entirely on what the Servant accomplished, not on my own moral effort? Where am I tempted to add my own works to his finished suffering?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "Verse 6 says each of us has 'turned to his own way.' What specific area of autonomy or self-direction am I clinging to instead of following the Shepherd?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "prayer",
+        "text": "Lord, I confess that I have gone astray like a sheep, turning to my own way. Thank you for laying my iniquity on your Servant. Help me to live in the healing and peace his wounds have purchased.",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "community",
+        "text": "Since all have gone astray equally, how does this passage reshape the way our community treats those whose sin is more visible? How can we embody the grace modeled here?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "belief",
+        "text": "What does it mean that 'the LORD has laid on him the iniquity of us all'? How does God\u2019s sovereign initiative in atonement guard against both despair and presumption?",
+        "conditional": false,
+        "condition_note": null
+      }
+    ]
+  }
+}

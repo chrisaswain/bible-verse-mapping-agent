@@ -1,0 +1,294 @@
+{
+  "reference": "Acts 2",
+  "step1_context": {
+    "reference": {
+      "raw": "Acts 2",
+      "spans": [{"book": "Acts", "chapter": 2, "verse_start": 1, "verse_end": 47}]
+    },
+    "context_window": [
+      {"book": "Acts", "chapter": 1, "verse_start": 12, "verse_end": 26},
+      {"book": "Acts", "chapter": 2, "verse_start": 1, "verse_end": 47},
+      {"book": "Acts", "chapter": 3, "verse_start": 1, "verse_end": 10}
+    ],
+    "flow_summary": "Following Jesus' ascension and the disciples' prayerful waiting in Jerusalem, the Holy Spirit descends at Pentecost with wind and fire, enabling the apostles to speak in other languages. Peter delivers the first apostolic sermon, interpreting the event through Joel's prophecy and declaring Jesus as risen Lord and Messiah. The crowd is convicted, three thousand are baptized, and the first church community forms around the apostles' teaching, fellowship, breaking of bread, and prayer.",
+    "genre": "Narrative (historical)",
+    "genre_rationale": "Acts is a historical narrative (the second volume of Luke-Acts) recording the early church's founding events. Chapter 2 combines event narration with an embedded speech (Peter's sermon), a common feature of Hellenistic historiography.",
+    "redemptive_historical_tag": "Church",
+    "redemptive_historical_rationale": "Pentecost marks the inauguration of the new-covenant community empowered by the Spirit. It fulfills Jesus' promise in Acts 1:8 and Joel's prophecy, transitioning redemptive history from the period of Jesus' earthly ministry to the age of the Spirit-empowered church."
+  },
+  "step2_translations": {
+    "always_included": true,
+    "renderings": [
+      {"translation": "KJV", "text": null},
+      {"translation": "ESV", "text": null},
+      {"translation": "NIV", "text": null}
+    ],
+    "variant_signals": [
+      {
+        "keyword": "other tongues / tongues / other languages",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV and ESV use 'other tongues' (Acts 2:4), while NIV renders 'other languages.' The choice between 'tongues' and 'languages' affects whether readers associate the phenomenon with intelligible foreign languages or ecstatic speech."
+      },
+      {
+        "keyword": "added to the church / added to their number",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV reads 'added to the church' (2:47), ESV 'added to their number,' and NIV 'added to their number.' The KJV includes the word 'church' explicitly, which may shape ecclesiological readings of the verse."
+      },
+      {
+        "keyword": "devout / God-fearing",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV and ESV use 'devout men' (2:5), while NIV uses 'God-fearing Jews.' The NIV clarifies the religious piety implied by the Greek eulabes."
+      },
+      {
+        "keyword": "cut to the heart / pierced to the heart",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV uses 'pricked in their heart' (2:37), ESV 'cut to the heart,' NIV 'cut to the heart.' KJV's archaic 'pricked' may obscure the intensity of conviction conveyed by the Greek katenygesan."
+      }
+    ],
+    "impact_summary": "The most significant translation differences in Acts 2 center on (1) whether glossais is rendered 'tongues' or 'languages,' which shapes the charismatic-vs-linguistic interpretation of Pentecost, and (2) the KJV's inclusion of 'church' in 2:47, which explicitly names the community being formed. Across all three translations the theological thrust is preserved: the Spirit comes, Peter proclaims the risen Jesus, and a new community is born through repentance and baptism."
+  },
+  "step3_keywords": {
+    "keywords": [
+      {
+        "keyword": "tongues/languages",
+        "lemma": "\u03b3\u03bb\u1ff6\u03c3\u03c3\u03b1",
+        "transliteration": "gl\u014dssa",
+        "lexical_id": "G1100",
+        "language": "Greek",
+        "gloss_range": ["tongue", "language", "speech"],
+        "usage_examples": [
+          {"reference": "Acts 2:4", "snippet": "began to speak in other tongues as the Spirit gave them utterance"},
+          {"reference": "Acts 10:46", "snippet": "they heard them speaking in tongues and extolling God"},
+          {"reference": "1 Corinthians 14:2", "snippet": "one who speaks in a tongue speaks not to men but to God"}
+        ],
+        "possible_meanings": ["physical tongue (organ)", "human language or dialect", "Spirit-inspired speech"],
+        "meaning_in_context": "In Acts 2, glossa refers to intelligible foreign languages spoken miraculously by the apostles, as confirmed by the crowd recognizing their own native dialects (2:6-11).",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "Spirit",
+        "lemma": "\u03c0\u03bd\u03b5\u1fe6\u03bc\u03b1",
+        "transliteration": "pneuma",
+        "lexical_id": "G4151",
+        "language": "Greek",
+        "gloss_range": ["spirit", "wind", "breath", "Spirit"],
+        "usage_examples": [
+          {"reference": "Acts 2:4", "snippet": "they were all filled with the Holy Spirit"},
+          {"reference": "John 14:26", "snippet": "the Helper, the Holy Spirit, whom the Father will send"},
+          {"reference": "Romans 8:11", "snippet": "the Spirit of him who raised Jesus from the dead"}
+        ],
+        "possible_meanings": ["wind or breath", "the human spirit", "the Holy Spirit (third person of the Trinity)"],
+        "meaning_in_context": "The Holy Spirit, the promised divine Helper, who descends upon the gathered believers to empower them for witness, fulfilling Jesus' promise in Acts 1:8 and Joel's prophecy of the Spirit poured out on all flesh.",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "repent",
+        "lemma": "\u03bc\u03b5\u03c4\u03b1\u03bd\u03bf\u03ad\u03c9",
+        "transliteration": "metanoe\u014d",
+        "lexical_id": "G3340",
+        "language": "Greek",
+        "gloss_range": ["to repent", "to change one's mind", "to turn around"],
+        "usage_examples": [
+          {"reference": "Acts 2:38", "snippet": "Repent and be baptized every one of you"},
+          {"reference": "Acts 3:19", "snippet": "Repent therefore, and turn back, that your sins may be blotted out"},
+          {"reference": "Luke 15:7", "snippet": "there will be more joy in heaven over one sinner who repents"}
+        ],
+        "possible_meanings": ["to feel remorse", "to change one's mind fundamentally", "to turn from sin to God"],
+        "meaning_in_context": "Peter commands a decisive change of mind and direction — turning from rejection of Jesus to acknowledging him as Lord and Messiah, expressed outwardly in baptism.",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "baptize",
+        "lemma": "\u03b2\u03b1\u03c0\u03c4\u03af\u03b6\u03c9",
+        "transliteration": "baptiz\u014d",
+        "lexical_id": "G907",
+        "language": "Greek",
+        "gloss_range": ["to baptize", "to immerse", "to wash"],
+        "usage_examples": [
+          {"reference": "Acts 2:38", "snippet": "be baptized every one of you in the name of Jesus Christ"},
+          {"reference": "Acts 2:41", "snippet": "those who received his word were baptized"},
+          {"reference": "Romans 6:3", "snippet": "all of us who have been baptized into Christ Jesus were baptized into his death"}
+        ],
+        "possible_meanings": ["to dip or immerse in water", "to ceremonially wash", "to identify with through ritual immersion"],
+        "meaning_in_context": "Water baptism as the public expression of repentance and faith in Jesus as Messiah, linked to the forgiveness of sins and reception of the Holy Spirit (2:38).",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "fellowship",
+        "lemma": "\u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03af\u03b1",
+        "transliteration": "koin\u014dnia",
+        "lexical_id": "G2842",
+        "language": "Greek",
+        "gloss_range": ["fellowship", "sharing", "partnership", "communion"],
+        "usage_examples": [
+          {"reference": "Acts 2:42", "snippet": "they devoted themselves to the apostles' teaching and the fellowship"},
+          {"reference": "1 Corinthians 1:9", "snippet": "called into the fellowship of his Son"},
+          {"reference": "Philippians 2:1", "snippet": "any participation in the Spirit"}
+        ],
+        "possible_meanings": ["close association or partnership", "sharing of possessions", "spiritual communion"],
+        "meaning_in_context": "The deep communal bond of the first believers, expressed in shared worship, teaching, meals, and material possessions (2:42-45), reflecting the relational transformation wrought by the Spirit.",
+        "influenced_by_translation_diff": false
+      }
+    ]
+  },
+  "step4_crossrefs": {
+    "edges": [
+      {
+        "source": "Acts 2:17-21",
+        "target": "Joel 2:28-32",
+        "relationship_types": ["direct_quotation", "prophecy_fulfillment"],
+        "score": 98,
+        "score_breakdown": {"lexical": 25, "thematic": 25, "structural": 23, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy."
+      },
+      {
+        "source": "Acts 2:4",
+        "target": "John 14:16-17",
+        "relationship_types": ["prophecy_fulfillment", "thematic_parallel"],
+        "score": 88,
+        "score_breakdown": {"lexical": 15, "thematic": 25, "structural": 23, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "I will ask the Father, and he will give you another Helper, to be with you forever, even the Spirit of truth."
+      },
+      {
+        "source": "Acts 2:4",
+        "target": "Acts 1:8",
+        "relationship_types": ["prophecy_fulfillment", "narrative_sequence"],
+        "score": 95,
+        "score_breakdown": {"lexical": 22, "thematic": 25, "structural": 25, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "You will receive power when the Holy Spirit has come upon you, and you will be my witnesses."
+      },
+      {
+        "source": "Acts 2:4",
+        "target": "Acts 10:44-46",
+        "relationship_types": ["verbal_parallel", "narrative_analogy"],
+        "score": 90,
+        "score_breakdown": {"lexical": 23, "thematic": 25, "structural": 20, "theological": 22},
+        "provenance": "openbible",
+        "snippet": "The Holy Spirit fell on all who heard the word... they heard them speaking in tongues and extolling God."
+      },
+      {
+        "source": "Acts 2:38",
+        "target": "1 Corinthians 12:13",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 82,
+        "score_breakdown": {"lexical": 18, "thematic": 22, "structural": 18, "theological": 24},
+        "provenance": "openbible",
+        "snippet": "For in one Spirit we were all baptized into one body — Jews or Greeks, slaves or free — and all were made to drink of one Spirit."
+      },
+      {
+        "source": "Acts 2:33",
+        "target": "Psalm 110:1",
+        "relationship_types": ["direct_quotation", "messianic_fulfillment"],
+        "score": 91,
+        "score_breakdown": {"lexical": 22, "thematic": 24, "structural": 22, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "The LORD says to my Lord: Sit at my right hand, until I make your enemies your footstool."
+      },
+      {
+        "source": "Acts 2:24-32",
+        "target": "Psalm 16:8-11",
+        "relationship_types": ["direct_quotation", "messianic_fulfillment"],
+        "score": 94,
+        "score_breakdown": {"lexical": 24, "thematic": 24, "structural": 23, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "You will not abandon my soul to Sheol, or let your holy one see corruption."
+      },
+      {
+        "source": "Acts 2:2-3",
+        "target": "Genesis 11:1-9",
+        "relationship_types": ["typological", "thematic_contrast"],
+        "score": 72,
+        "score_breakdown": {"lexical": 8, "thematic": 22, "structural": 20, "theological": 22},
+        "provenance": "agent",
+        "snippet": "Come, let us go down and there confuse their language, so that they may not understand one another's speech."
+      },
+      {
+        "source": "Acts 2:42-47",
+        "target": "Acts 4:32-35",
+        "relationship_types": ["verbal_parallel", "narrative_analogy"],
+        "score": 87,
+        "score_breakdown": {"lexical": 22, "thematic": 24, "structural": 20, "theological": 21},
+        "provenance": "openbible",
+        "snippet": "Now the full number of those who believed were of one heart and soul, and no one said that any of the things that belonged to him was his own."
+      }
+    ],
+    "clusters": [
+      {
+        "name": "Fulfillment of the Spirit's Promise",
+        "rationale": "Old Testament prophecy and Jesus' own promises regarding the coming of the Holy Spirit, fulfilled at Pentecost",
+        "edges": ["Joel 2:28-32", "John 14:16-17", "Acts 1:8"]
+      },
+      {
+        "name": "Tongues and the Spirit's Manifestation",
+        "rationale": "Passages where the Spirit's arrival is accompanied by speaking in tongues, forming a pattern across Acts",
+        "edges": ["Acts 10:44-46", "1 Corinthians 12:13"]
+      },
+      {
+        "name": "Messianic Proof from the Psalms",
+        "rationale": "Peter's sermon draws on Psalms to demonstrate that Jesus' resurrection and exaltation fulfill Davidic messianic expectation",
+        "edges": ["Psalm 16:8-11", "Psalm 110:1"]
+      },
+      {
+        "name": "Babel Reversed",
+        "rationale": "Pentecost as the typological reversal of Babel — where languages were confused to scatter, now languages unite through the Spirit",
+        "edges": ["Genesis 11:1-9"]
+      },
+      {
+        "name": "The Shape of Early Community",
+        "rationale": "Summary passages describing the shared life, generosity, and worship of the earliest believers",
+        "edges": ["Acts 4:32-35"]
+      }
+    ]
+  },
+  "step5_application": {
+    "principles": [
+      {
+        "statement": "The Holy Spirit empowers believers for witness and mission",
+        "grounding": "The Spirit's arrival at Pentecost directly enables the apostles to proclaim Christ across language barriers (2:4-11), fulfilling Acts 1:8. Empowerment precedes proclamation."
+      },
+      {
+        "statement": "Repentance and faith are the proper response to the gospel",
+        "grounding": "When the crowd asks 'What shall we do?' Peter commands repentance and baptism (2:37-38). The gospel demands a decisive personal response, not passive observation."
+      },
+      {
+        "statement": "Genuine conversion produces visible community transformation",
+        "grounding": "The three thousand who believed immediately devoted themselves to teaching, fellowship, breaking of bread, and prayer (2:42-47). Authentic faith overflows into shared life and generosity."
+      }
+    ],
+    "prompts": [
+      {
+        "category": "belief",
+        "text": "Peter declares that God has made Jesus 'both Lord and Christ' (2:36). What does it mean to acknowledge Jesus not only as Savior but as Lord over every area of life?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "The crowd was 'cut to the heart' and asked what they should do. Is there an area of conviction the Spirit is pressing on in your own life that calls for repentance and a concrete step of obedience?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "prayer",
+        "text": "Lord, pour out your Spirit afresh on me and on your church. Give us boldness to proclaim the risen Christ and the grace to live in genuine fellowship with one another.",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "community",
+        "text": "The early church devoted themselves to teaching, fellowship, breaking bread, and prayer together (2:42). Which of these four practices is weakest in your community, and what would it look like to strengthen it?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "community",
+        "text": "The believers shared possessions so that no one among them had need (2:44-45). How might your faith community move toward greater generosity and mutual care?",
+        "conditional": false,
+        "condition_note": null
+      }
+    ]
+  }
+}

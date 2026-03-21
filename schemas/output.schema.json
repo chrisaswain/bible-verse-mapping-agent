@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VerseMapOutput",
+  "type": "object",
+  "required": ["reference", "step1_context", "step2_translations", "step3_keywords", "step4_crossrefs", "step5_application"],
+  "properties": {
+    "reference": { "type": "string" },
+    "step1_context": {
+      "type": "object",
+      "required": ["reference", "context_window", "flow_summary", "genre", "genre_rationale", "redemptive_historical_tag", "redemptive_historical_rationale"],
+      "properties": {
+        "reference": {
+          "type": "object",
+          "required": ["raw", "spans"],
+          "properties": {
+            "raw": { "type": "string" },
+            "spans": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["book", "chapter", "verse_start"],
+                "properties": {
+                  "book": { "type": "string" },
+                  "chapter": { "type": "integer" },
+                  "verse_start": { "type": "integer" },
+                  "verse_end": { "type": ["integer", "null"] }
+                }
+              }
+            }
+          }
+        },
+        "context_window": { "type": "array", "items": { "type": "object" } },
+        "flow_summary": { "type": "string" },
+        "genre": { "type": "string" },
+        "genre_rationale": { "type": "string" },
+        "redemptive_historical_tag": { "type": "string" },
+        "redemptive_historical_rationale": { "type": "string" }
+      }
+    },
+    "step2_translations": {
+      "type": "object",
+      "required": ["always_included", "renderings", "variant_signals", "impact_summary"],
+      "properties": {
+        "always_included": { "type": "boolean", "const": true },
+        "renderings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["translation"],
+            "properties": {
+              "translation": { "type": "string" },
+              "text": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "variant_signals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["keyword", "translations_differ", "impact"],
+            "properties": {
+              "keyword": { "type": "string" },
+              "translations_differ": { "type": "array", "items": { "type": "string" } },
+              "impact": { "type": "string" }
+            }
+          }
+        },
+        "impact_summary": { "type": "string" }
+      }
+    },
+    "step3_keywords": {
+      "type": "object",
+      "required": ["keywords"],
+      "properties": {
+        "keywords": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "required": ["keyword", "lemma", "transliteration", "lexical_id", "language", "gloss_range", "usage_examples", "possible_meanings", "meaning_in_context"],
+            "properties": {
+              "keyword": { "type": "string" },
+              "lemma": { "type": "string" },
+              "transliteration": { "type": "string" },
+              "lexical_id": { "type": "string" },
+              "language": { "type": "string" },
+              "gloss_range": { "type": "array", "items": { "type": "string" } },
+              "usage_examples": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["reference", "snippet"],
+                  "properties": {
+                    "reference": { "type": "string" },
+                    "snippet": { "type": "string" }
+                  }
+                }
+              },
+              "possible_meanings": { "type": "array", "items": { "type": "string" } },
+              "meaning_in_context": { "type": "string" },
+              "influenced_by_translation_diff": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "step4_crossrefs": {
+      "type": "object",
+      "required": ["edges", "clusters"],
+      "properties": {
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["source", "target", "relationship_types", "score", "score_breakdown", "provenance"],
+            "properties": {
+              "source": { "type": "string" },
+              "target": { "type": "string" },
+              "relationship_types": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+              "score": { "type": "integer", "minimum": 0, "maximum": 100 },
+              "score_breakdown": {
+                "type": "object",
+                "properties": {
+                  "lexical": { "type": "number" },
+                  "thematic": { "type": "number" },
+                  "structural": { "type": "number" },
+                  "theological": { "type": "number" }
+                }
+              },
+              "provenance": { "type": "string" }
+            }
+          }
+        },
+        "clusters": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "required": ["name", "rationale", "edges"],
+            "properties": {
+              "name": { "type": "string" },
+              "rationale": { "type": "string" },
+              "edges": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "step5_application": {
+      "type": "object",
+      "required": ["principles", "prompts"],
+      "properties": {
+        "principles": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": ["statement", "grounding"],
+            "properties": {
+              "statement": { "type": "string" },
+              "grounding": { "type": "string" }
+            }
+          }
+        },
+        "prompts": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": ["category", "text"],
+            "properties": {
+              "category": { "type": "string" },
+              "text": { "type": "string" },
+              "conditional": { "type": "boolean" },
+              "condition_note": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}

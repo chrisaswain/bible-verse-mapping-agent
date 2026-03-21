@@ -1,0 +1,284 @@
+{
+  "reference": "Exodus 12",
+  "step1_context": {
+    "reference": {
+      "raw": "Exodus 12",
+      "spans": [{"book": "Exodus", "chapter": 12, "verse_start": 1, "verse_end": 51}]
+    },
+    "context_window": [
+      {"book": "Exodus", "chapter": 11, "verse_start": 1, "verse_end": 10},
+      {"book": "Exodus", "chapter": 12, "verse_start": 1, "verse_end": 51},
+      {"book": "Exodus", "chapter": 13, "verse_start": 1, "verse_end": 10}
+    ],
+    "flow_summary": "After nine plagues fail to move Pharaoh, God announces the final plague — the death of every firstborn in Egypt. In chapter 12, God institutes the Passover: each Israelite household must select an unblemished lamb, slaughter it at twilight, and apply its blood to the doorposts so the destroyer will pass over. The chapter interweaves the original Passover instructions (vv. 1-13), the ordinance of the Feast of Unleavened Bread (vv. 14-20), Moses' relay of the instructions to the elders (vv. 21-28), the execution of the tenth plague at midnight (vv. 29-32), and the Israelites' departure from Egypt with Egyptian goods (vv. 33-42), concluding with further regulations for the Passover (vv. 43-51). Chapter 13 continues with the consecration of the firstborn, tying the Passover to Israel's ongoing worship and identity as a redeemed people.",
+    "genre": "Narrative / Law",
+    "genre_rationale": "Exodus 12 blends historical narrative (the events of the tenth plague and the departure from Egypt) with prescriptive legislation (the Passover ordinance and the Feast of Unleavened Bread), making it a hybrid genre that grounds covenant law in redemptive history.",
+    "redemptive_historical_tag": "Exodus",
+    "redemptive_historical_rationale": "The Passover is the paradigmatic act of God's redemption in the Old Testament — deliverance by the blood of a substitute lamb. It establishes the pattern of redemption through sacrifice that finds its fulfillment in Christ, the Passover Lamb (1 Cor 5:7)."
+  },
+  "step2_translations": {
+    "always_included": true,
+    "renderings": [
+      {"translation": "KJV", "text": "And the LORD said unto Moses and Aaron in the land of Egypt, saying, This month shall be unto you the beginning of months: it shall be the first month of the year to you. Speak ye unto all the congregation of Israel, saying, In the tenth day of this month they shall take to them every man a lamb, according to the house of their fathers, a lamb for an house..."},
+      {"translation": "ESV", "text": "The LORD said to Moses and Aaron in the land of Egypt, \"This month shall be for you the beginning of months. It shall be the first month of the year for you. Tell all the congregation of Israel that on the tenth day of this month every man shall take a lamb according to their fathers' houses, a lamb for a household...\""},
+      {"translation": "NIV", "text": "The LORD said to Moses and Aaron in Egypt, \"This month is to be for you the first month, the first month of your year. Tell the whole community of Israel that on the tenth day of this month each man is to take a lamb for his family, one for each household...\""}
+    ],
+    "variant_signals": [
+      {
+        "keyword": "lamb / kid",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "The Hebrew 'seh' can denote either a lamb or a young goat (see v. 5, which specifies sheep or goats). KJV and ESV render 'lamb,' while the underlying Hebrew is broader. This affects whether readers perceive the Passover animal as exclusively a lamb or as either a lamb or kid."
+      },
+      {
+        "keyword": "pass over / passed over / struck down",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "The verb 'pasach' in v. 13 is rendered 'pass over' (KJV, ESV) or with nuances of 'pass over' (NIV). Some scholars argue the root means 'to protect/shield' rather than simply 'to skip,' affecting the theology of divine protection versus mere omission."
+      },
+      {
+        "keyword": "congregation / community / assembly",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV uses 'congregation,' ESV uses 'congregation,' and NIV uses 'community' for Hebrew 'edah.' The choice affects the ecclesial or corporate tone of the instruction."
+      }
+    ],
+    "impact_summary": "The most significant translation differences in Exodus 12 center on the Passover animal ('seh' — lamb vs. lamb/kid), the meaning of the verb 'pasach' (pass over vs. protect), and communal terminology. These variants bear on the typological identification of Christ as the Passover Lamb and the nature of God's protective act on the night of the tenth plague."
+  },
+  "step3_keywords": {
+    "keywords": [
+      {
+        "keyword": "passover",
+        "lemma": "\u05e4\u05b6\u05bc\u05e1\u05b7\u05d7",
+        "transliteration": "pesach",
+        "lexical_id": "H6453",
+        "language": "Hebrew",
+        "gloss_range": ["passover", "passover offering", "paschal sacrifice"],
+        "usage_examples": [
+          {"reference": "Exodus 12:11", "snippet": "It is the LORD's Passover"},
+          {"reference": "Deuteronomy 16:2", "snippet": "You shall offer the Passover sacrifice to the LORD your God"},
+          {"reference": "2 Chronicles 35:1", "snippet": "Josiah kept a Passover to the LORD"}
+        ],
+        "possible_meanings": ["the Passover festival", "the Passover sacrifice/lamb", "the act of passing over or sparing"],
+        "meaning_in_context": "Both the sacrificial meal and the redemptive event in which God spares Israel's firstborn by the blood of the lamb",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "lamb",
+        "lemma": "\u05e9\u05c2\u05b6\u05d4",
+        "transliteration": "seh",
+        "lexical_id": "H7716",
+        "language": "Hebrew",
+        "gloss_range": ["lamb", "kid", "sheep", "goat", "one of the flock"],
+        "usage_examples": [
+          {"reference": "Exodus 12:3", "snippet": "every man shall take a lamb according to their fathers' houses"},
+          {"reference": "Genesis 22:7", "snippet": "Where is the lamb for a burnt offering?"},
+          {"reference": "Isaiah 53:7", "snippet": "Like a lamb that is led to the slaughter"}
+        ],
+        "possible_meanings": ["a young sheep", "a young goat", "a small animal from the flock (generic)"],
+        "meaning_in_context": "The unblemished animal from the flock — either a lamb or a kid — selected as the Passover sacrifice whose blood protects the household",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "blood",
+        "lemma": "\u05d3\u05b8\u05bc\u05dd",
+        "transliteration": "dam",
+        "lexical_id": "H1818",
+        "language": "Hebrew",
+        "gloss_range": ["blood", "bloodshed", "lifeblood"],
+        "usage_examples": [
+          {"reference": "Exodus 12:7", "snippet": "They shall take some of the blood and put it on the two doorposts"},
+          {"reference": "Leviticus 17:11", "snippet": "For the life of the flesh is in the blood"},
+          {"reference": "Hebrews 9:22", "snippet": "Without the shedding of blood there is no forgiveness of sins"}
+        ],
+        "possible_meanings": ["literal blood of an animal or person", "lifeblood representing life itself", "blood as the means of atonement"],
+        "meaning_in_context": "The blood of the Passover lamb applied to the doorposts as the visible sign of faith and the means by which God's judgment passes over the household",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "unleavened bread",
+        "lemma": "\u05de\u05b7\u05e6\u05bc\u05b8\u05d4",
+        "transliteration": "matstsah",
+        "lexical_id": "H4682",
+        "language": "Hebrew",
+        "gloss_range": ["unleavened bread", "unleavened cake"],
+        "usage_examples": [
+          {"reference": "Exodus 12:8", "snippet": "They shall eat the flesh that night...with unleavened bread and bitter herbs"},
+          {"reference": "Exodus 12:15", "snippet": "Seven days you shall eat unleavened bread"},
+          {"reference": "1 Corinthians 5:8", "snippet": "Let us celebrate the festival...with the unleavened bread of sincerity and truth"}
+        ],
+        "possible_meanings": ["bread made without yeast", "symbol of haste in departure", "symbol of purity and separation from sin"],
+        "meaning_in_context": "Bread made without leaven, eaten in haste on the night of deliverance and for seven days following, symbolizing both the urgency of the Exodus and the purity required of the redeemed community",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "firstborn",
+        "lemma": "\u05d1\u05b0\u05bc\u05db\u05d5\u05b9\u05e8",
+        "transliteration": "bekor",
+        "lexical_id": "H1060",
+        "language": "Hebrew",
+        "gloss_range": ["firstborn", "eldest"],
+        "usage_examples": [
+          {"reference": "Exodus 12:29", "snippet": "At midnight the LORD struck down all the firstborn in the land of Egypt"},
+          {"reference": "Exodus 13:2", "snippet": "Consecrate to me all the firstborn"},
+          {"reference": "Colossians 1:15", "snippet": "He is the image of the invisible God, the firstborn of all creation"}
+        ],
+        "possible_meanings": ["the first child born", "the one holding the rights of primogeniture", "preeminent one"],
+        "meaning_in_context": "The firstborn of every Egyptian family and of livestock, struck down in the tenth plague as God's definitive judgment against Pharaoh and Egypt's gods, while Israel's firstborn are spared through the Passover blood",
+        "influenced_by_translation_diff": false
+      }
+    ]
+  },
+  "step4_crossrefs": {
+    "edges": [
+      {
+        "source": "Exodus 12",
+        "target": "1 Corinthians 5:7",
+        "relationship_types": ["typological", "direct_quotation_allusion"],
+        "score": 97,
+        "score_breakdown": {"lexical": 23, "thematic": 25, "structural": 24, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "For Christ, our Passover lamb, has been sacrificed."
+      },
+      {
+        "source": "Exodus 12",
+        "target": "John 1:29",
+        "relationship_types": ["typological", "thematic_parallel"],
+        "score": 93,
+        "score_breakdown": {"lexical": 20, "thematic": 25, "structural": 23, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "Behold, the Lamb of God, who takes away the sin of the world!"
+      },
+      {
+        "source": "Exodus 12",
+        "target": "1 Peter 1:18-19",
+        "relationship_types": ["typological", "theological_development"],
+        "score": 92,
+        "score_breakdown": {"lexical": 22, "thematic": 24, "structural": 21, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "You were ransomed...with the precious blood of Christ, like that of a lamb without blemish or spot."
+      },
+      {
+        "source": "Exodus 12",
+        "target": "Revelation 5:6",
+        "relationship_types": ["typological", "thematic_parallel"],
+        "score": 85,
+        "score_breakdown": {"lexical": 15, "thematic": 24, "structural": 21, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "I saw a Lamb standing, as though it had been slain."
+      },
+      {
+        "source": "Exodus 12",
+        "target": "John 19:36",
+        "relationship_types": ["typological", "direct_quotation_allusion"],
+        "score": 90,
+        "score_breakdown": {"lexical": 22, "thematic": 23, "structural": 22, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "Not one of his bones will be broken."
+      },
+      {
+        "source": "Exodus 12",
+        "target": "Isaiah 53:7",
+        "relationship_types": ["typological", "prophetic_fulfillment"],
+        "score": 88,
+        "score_breakdown": {"lexical": 20, "thematic": 24, "structural": 20, "theological": 24},
+        "provenance": "agent",
+        "snippet": "Like a lamb that is led to the slaughter, and like a sheep that before its shearers is silent."
+      },
+      {
+        "source": "Exodus 12",
+        "target": "Hebrews 11:28",
+        "relationship_types": ["historical_reference", "thematic_parallel"],
+        "score": 91,
+        "score_breakdown": {"lexical": 22, "thematic": 24, "structural": 22, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "By faith he kept the Passover and sprinkled the blood, so that the Destroyer of the firstborn might not touch them."
+      },
+      {
+        "source": "Exodus 12",
+        "target": "Revelation 12:11",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 78,
+        "score_breakdown": {"lexical": 15, "thematic": 22, "structural": 18, "theological": 23},
+        "provenance": "agent",
+        "snippet": "They have conquered him by the blood of the Lamb and by the word of their testimony."
+      },
+      {
+        "source": "Exodus 12",
+        "target": "Luke 22:19-20",
+        "relationship_types": ["typological", "theological_development"],
+        "score": 86,
+        "score_breakdown": {"lexical": 18, "thematic": 24, "structural": 20, "theological": 24},
+        "provenance": "agent",
+        "snippet": "This is my body, which is given for you. Do this in remembrance of me...This cup that is poured out for you is the new covenant in my blood."
+      }
+    ],
+    "clusters": [
+      {
+        "name": "Christ as the Passover Lamb",
+        "rationale": "New Testament passages that explicitly or typologically identify Jesus Christ as the fulfillment of the Passover lamb",
+        "edges": ["1 Corinthians 5:7", "John 1:29", "1 Peter 1:18-19", "John 19:36"]
+      },
+      {
+        "name": "The Lamb in Eschatological Victory",
+        "rationale": "Passages depicting the slain Lamb as triumphant and His blood as the means of overcoming evil in the final consummation",
+        "edges": ["Revelation 5:6", "Revelation 12:11"]
+      },
+      {
+        "name": "Redemption through Sacrificial Blood",
+        "rationale": "Passages developing the theology of blood atonement and substitutionary sacrifice that the Passover inaugurates",
+        "edges": ["1 Peter 1:18-19", "Isaiah 53:7", "Hebrews 11:28"]
+      },
+      {
+        "name": "Passover and the Lord's Supper",
+        "rationale": "The connection between the Passover meal and the institution of the Lord's Supper as the new covenant meal of remembrance",
+        "edges": ["Luke 22:19-20", "1 Corinthians 5:7"]
+      }
+    ]
+  },
+  "step5_application": {
+    "principles": [
+      {
+        "statement": "God delivers His people through substitutionary sacrifice",
+        "grounding": "The Passover lamb dies in the place of the firstborn. Its blood on the doorposts is the means by which judgment passes over the household, establishing the principle that redemption comes at the cost of an innocent substitute."
+      },
+      {
+        "statement": "Redemption must be personally appropriated by faith and obedience",
+        "grounding": "Merely slaughtering the lamb was insufficient — each household had to apply the blood to their doorposts and eat the meal in readiness. God's provision required a response of trust and obedience."
+      },
+      {
+        "statement": "God's acts of deliverance become the foundation of ongoing worship and identity",
+        "grounding": "God commands Israel to observe the Passover annually as a perpetual ordinance (vv. 14, 24-27), ensuring that each generation remembers and re-identifies with the redemption from Egypt."
+      }
+    ],
+    "prompts": [
+      {
+        "category": "belief",
+        "text": "The Passover lamb had to be without blemish. How does this foreshadow Christ's sinless perfection, and what does it reveal about the kind of sacrifice God requires to deal with sin?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "The Israelites had to apply the blood to their doorposts — they could not simply trust that a lamb had been slain somewhere. In what areas of your life are you failing to personally appropriate what God has provided in Christ?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "prayer",
+        "text": "Lord, thank You that the blood of Christ, my Passover Lamb, shields me from the judgment I deserve. Help me to live as one who has been redeemed — with urgency, gratitude, and readiness to follow wherever You lead.",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "community",
+        "text": "The Passover was a household and community event, not an individual ritual. How does your faith community practice corporate remembrance of God's deliverance, and how might you deepen that practice?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "God told Israel to teach their children the meaning of the Passover when asked (vv. 26-27). What rhythms or traditions do you have for passing the story of God's redemption to the next generation?",
+        "conditional": true,
+        "condition_note": "Especially relevant for parents, mentors, or those in teaching roles"
+      }
+    ]
+  }
+}

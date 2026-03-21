@@ -1,0 +1,307 @@
+{
+  "reference": "Hebrews 10",
+  "step1_context": {
+    "reference": {
+      "raw": "Hebrews 10",
+      "spans": [{"book": "Hebrews", "chapter": 10, "verse_start": 1, "verse_end": 39}]
+    },
+    "context_window": [
+      {"book": "Hebrews", "chapter": 9, "verse_start": 11, "verse_end": 28},
+      {"book": "Hebrews", "chapter": 10, "verse_start": 1, "verse_end": 39},
+      {"book": "Hebrews", "chapter": 11, "verse_start": 1, "verse_end": 6}
+    ],
+    "flow_summary": "The author argues that the old covenant sacrificial system, being a shadow of the good things to come, could never perfect worshipers through its repeated offerings (vv. 1-4). Christ's incarnation and obedient self-offering fulfilled Psalm 40, abolishing the first covenant to establish the second (vv. 5-10). Unlike the Levitical priests who stood daily offering ineffectual sacrifices, Christ sat down after offering one sacrifice for sins for all time, perfecting those being sanctified (vv. 11-18). On this basis, the author issues a threefold exhortation: draw near in faith, hold fast the confession of hope, and stir one another to love and good works (vv. 19-25). A severe warning follows against willful sin after receiving knowledge of the truth, invoking the terror of falling into the hands of the living God (vv. 26-31). The chapter closes by recalling the readers' past endurance under suffering and urging them not to shrink back but to persevere in faith (vv. 32-39).",
+    "genre": "Epistle (homiletical)",
+    "genre_rationale": "Hebrews functions as a sermonic letter ('word of exhortation,' 13:22) blending theological exposition with pastoral exhortation, as seen in the doctrinal argument of vv. 1-18 followed by direct paraenesis in vv. 19-39.",
+    "redemptive_historical_tag": "Cross",
+    "redemptive_historical_rationale": "The chapter's central argument is that Christ's once-for-all sacrifice on the cross supersedes and renders obsolete the entire Levitical sacrificial system, accomplishing what repeated animal offerings could never achieve — the permanent removal of sins and the perfecting of God's people."
+  },
+  "step2_translations": {
+    "always_included": true,
+    "renderings": [
+      {"translation": "KJV", "text": "For the law having a shadow of good things to come, and not the very image of the things, can never with those sacrifices which they offered year by year continually make the comers thereunto perfect. ... For by one offering he hath perfected for ever them that are sanctified."},
+      {"translation": "ESV", "text": "For since the law has but a shadow of the good things to come instead of the true form of these realities, it can never, by the same sacrifices that are continually offered every year, make perfect those who draw near. ... For by a single offering he has perfected for all time those who are being sanctified."},
+      {"translation": "NIV", "text": "The law is only a shadow of the good things that are coming — not the realities themselves. For this reason it can never, by the same sacrifices repeated endlessly year after year, make perfect those who draw near to worship. ... For by one sacrifice he has made perfect forever those who are being made holy."}
+    ],
+    "variant_signals": [
+      {
+        "keyword": "sanctified / being sanctified / being made holy",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV uses the simple past 'are sanctified,' while ESV and NIV render the present participle ('are being sanctified' / 'are being made holy'), highlighting the ongoing process of sanctification alongside the completed act of positional holiness."
+      },
+      {
+        "keyword": "willful sin / deliberate sin / keep on sinning deliberately",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV's 'sin wilfully' (v. 26), ESV's 'go on sinning deliberately,' and NIV's 'deliberately keep on sinning' differ in whether the emphasis falls on a single willful act or a continuous pattern of deliberate apostasy, which affects the severity and scope of the warning."
+      },
+      {
+        "keyword": "a shadow of good things to come",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV and ESV retain 'shadow of good things to come'; NIV uses 'shadow of the good things that are coming.' The tense shift affects whether the 'good things' are viewed as already inaugurated or still future, touching on realized vs. future eschatology."
+      },
+      {
+        "keyword": "confidence / boldness",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV renders parresia as 'boldness' (v. 19), while ESV and NIV use 'confidence.' 'Boldness' emphasizes courageous speech-act access to God, while 'confidence' leans toward internal assurance — both capture aspects of the Greek term."
+      }
+    ],
+    "impact_summary": "The major translation differences in Hebrews 10 center on the tense and aspect of sanctification (completed vs. ongoing), the nature of the apostasy warning (single act vs. persistent pattern), and the nuance of the believer's access to God (boldness vs. confidence). These variants shape pastoral application significantly: whether assurance or warning is foregrounded depends partly on how these terms are rendered."
+  },
+  "step3_keywords": {
+    "keywords": [
+      {
+        "keyword": "sacrifice/offering",
+        "lemma": "\u03b8\u03c5\u03c3\u03af\u03b1",
+        "transliteration": "thusia",
+        "lexical_id": "G2378",
+        "language": "Greek",
+        "gloss_range": ["sacrifice", "offering", "victim"],
+        "usage_examples": [
+          {"reference": "Hebrews 9:26", "snippet": "He has appeared once for all at the end of the ages to put away sin by the sacrifice of himself"},
+          {"reference": "Ephesians 5:2", "snippet": "Christ loved us and gave himself up for us, a fragrant offering and sacrifice to God"},
+          {"reference": "Psalm 40:6 (LXX 39:7)", "snippet": "Sacrifice and offering you did not desire"}
+        ],
+        "possible_meanings": ["animal sacrifice", "atoning offering", "self-giving act of worship"],
+        "meaning_in_context": "The repeated Levitical animal sacrifices that could never take away sins, contrasted with Christ's single, once-for-all self-offering that permanently removes sin and perfects worshipers",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "sanctified/made holy",
+        "lemma": "\u1f01\u03b3\u03b9\u03ac\u03b6\u03c9",
+        "transliteration": "hagiaz\u014d",
+        "lexical_id": "G37",
+        "language": "Greek",
+        "gloss_range": ["to sanctify", "to make holy", "to set apart", "to consecrate"],
+        "usage_examples": [
+          {"reference": "Hebrews 10:10", "snippet": "We have been sanctified through the offering of the body of Jesus Christ once for all"},
+          {"reference": "Hebrews 10:14", "snippet": "He has perfected for all time those who are being sanctified"},
+          {"reference": "1 Corinthians 6:11", "snippet": "You were washed, you were sanctified, you were justified"}
+        ],
+        "possible_meanings": ["to set apart for God's purposes", "to make morally pure", "to consecrate ritually"],
+        "meaning_in_context": "Both the definitive act of being set apart by Christ's sacrifice (v. 10, aorist) and the ongoing process of being made holy (v. 14, present participle), capturing the 'already and not yet' of the believer's sanctification",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "confidence/boldness",
+        "lemma": "\u03c0\u03b1\u03c1\u03c1\u03b7\u03c3\u03af\u03b1",
+        "transliteration": "parr\u0113sia",
+        "lexical_id": "G3954",
+        "language": "Greek",
+        "gloss_range": ["boldness", "confidence", "openness", "freedom of speech"],
+        "usage_examples": [
+          {"reference": "Hebrews 4:16", "snippet": "Let us then with confidence draw near to the throne of grace"},
+          {"reference": "Ephesians 3:12", "snippet": "In whom we have boldness and access with confidence through our faith in him"},
+          {"reference": "1 John 5:14", "snippet": "This is the confidence that we have toward him"}
+        ],
+        "possible_meanings": ["outspoken boldness", "free and fearless confidence", "unreserved access"],
+        "meaning_in_context": "The believer's confident, unrestricted access to enter the holy places by the blood of Jesus — a boldness grounded not in personal merit but in Christ's finished sacrifice",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "offering",
+        "lemma": "\u03c0\u03c1\u03bf\u03c3\u03c6\u03bf\u03c1\u03ac",
+        "transliteration": "prosphora",
+        "lexical_id": "G4376",
+        "language": "Greek",
+        "gloss_range": ["offering", "oblation", "presentation"],
+        "usage_examples": [
+          {"reference": "Hebrews 10:10", "snippet": "Through the offering of the body of Jesus Christ once for all"},
+          {"reference": "Hebrews 10:18", "snippet": "Where there is forgiveness of these, there is no longer any offering for sin"},
+          {"reference": "Acts 21:26", "snippet": "The offering would be made for each of them"}
+        ],
+        "possible_meanings": ["a bringing to or presenting before God", "a sacrificial gift", "an act of offering"],
+        "meaning_in_context": "Christ's presentation of his own body as the definitive offering to God, which by its singular and unrepeatable nature renders all further sin offerings unnecessary",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "new and living way",
+        "lemma": "\u03c0\u03c1\u03cc\u03c3\u03c6\u03b1\u03c4\u03bf\u03c2",
+        "transliteration": "prosphatos",
+        "lexical_id": "G4372",
+        "language": "Greek",
+        "gloss_range": ["new", "fresh", "recently slain"],
+        "usage_examples": [
+          {"reference": "Hebrews 10:20", "snippet": "By the new and living way that he opened for us through the curtain, that is, through his flesh"}
+        ],
+        "possible_meanings": ["newly inaugurated", "freshly opened", "recently slaughtered (etymologically)"],
+        "meaning_in_context": "The freshly inaugurated way of access to God through Christ's flesh — a way that is perpetually 'new' and 'living' in contrast to the obsolete rituals of the old covenant",
+        "influenced_by_translation_diff": false
+      }
+    ]
+  },
+  "step4_crossrefs": {
+    "edges": [
+      {
+        "source": "Hebrews 10:1-4",
+        "target": "Hebrews 9:12-14",
+        "relationship_types": ["immediate_context", "thematic_parallel"],
+        "score": 96,
+        "score_breakdown": {"lexical": 24, "thematic": 25, "structural": 24, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "He entered once for all into the holy places, not by means of the blood of goats and calves but by means of his own blood, thus securing an eternal redemption."
+      },
+      {
+        "source": "Hebrews 10:5-7",
+        "target": "Psalm 40:6-8",
+        "relationship_types": ["direct_quotation", "typological"],
+        "score": 98,
+        "score_breakdown": {"lexical": 25, "thematic": 25, "structural": 23, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "Sacrifice and offering you did not desire, but a body you have prepared for me; in burnt offerings and sin offerings you have taken no pleasure."
+      },
+      {
+        "source": "Hebrews 10:16-17",
+        "target": "Jeremiah 31:33-34",
+        "relationship_types": ["direct_quotation", "prophecy_fulfillment"],
+        "score": 97,
+        "score_breakdown": {"lexical": 25, "thematic": 25, "structural": 22, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "I will put my law within them, and I will write it on their hearts ... For I will forgive their iniquity, and I will remember their sin no more."
+      },
+      {
+        "source": "Hebrews 10:19-22",
+        "target": "Hebrews 4:14-16",
+        "relationship_types": ["thematic_parallel", "structural_parallel"],
+        "score": 90,
+        "score_breakdown": {"lexical": 22, "thematic": 24, "structural": 22, "theological": 22},
+        "provenance": "openbible",
+        "snippet": "Since then we have a great high priest who has passed through the heavens ... Let us then with confidence draw near to the throne of grace."
+      },
+      {
+        "source": "Hebrews 10:26-31",
+        "target": "Hebrews 6:4-6",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 93,
+        "score_breakdown": {"lexical": 20, "thematic": 25, "structural": 23, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "For it is impossible, in the case of those who have once been enlightened ... and then have fallen away, to restore them again to repentance."
+      },
+      {
+        "source": "Hebrews 10:26-27",
+        "target": "Deuteronomy 17:6",
+        "relationship_types": ["allusion", "typological"],
+        "score": 72,
+        "score_breakdown": {"lexical": 15, "thematic": 20, "structural": 17, "theological": 20},
+        "provenance": "agent",
+        "snippet": "On the evidence of two witnesses or of three witnesses the one who is to die shall be put to death."
+      },
+      {
+        "source": "Hebrews 10:12-14",
+        "target": "Romans 8:1-4",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 85,
+        "score_breakdown": {"lexical": 16, "thematic": 24, "structural": 20, "theological": 25},
+        "provenance": "agent",
+        "snippet": "There is therefore now no condemnation for those who are in Christ Jesus. For the law of the Spirit of life has set you free from the law of sin and death."
+      },
+      {
+        "source": "Hebrews 10:37-38",
+        "target": "Habakkuk 2:3-4",
+        "relationship_types": ["direct_quotation", "prophecy_fulfillment"],
+        "score": 94,
+        "score_breakdown": {"lexical": 24, "thematic": 25, "structural": 22, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "The righteous shall live by his faith."
+      },
+      {
+        "source": "Hebrews 10:10",
+        "target": "Ephesians 5:2",
+        "relationship_types": ["verbal_parallel", "thematic_parallel"],
+        "score": 80,
+        "score_breakdown": {"lexical": 20, "thematic": 22, "structural": 16, "theological": 22},
+        "provenance": "agent",
+        "snippet": "Christ loved us and gave himself up for us, a fragrant offering and sacrifice to God."
+      },
+      {
+        "source": "Hebrews 10:24-25",
+        "target": "1 Thessalonians 5:11",
+        "relationship_types": ["thematic_parallel"],
+        "score": 75,
+        "score_breakdown": {"lexical": 17, "thematic": 22, "structural": 16, "theological": 20},
+        "provenance": "agent",
+        "snippet": "Therefore encourage one another and build one another up, just as you are doing."
+      }
+    ],
+    "clusters": [
+      {
+        "name": "Christ's Once-for-All Sacrifice",
+        "rationale": "Passages establishing the superiority and finality of Christ's self-offering over the repeated Levitical sacrifices",
+        "edges": ["Hebrews 9:12-14", "Psalm 40:6-8", "Ephesians 5:2", "Romans 8:1-4"]
+      },
+      {
+        "name": "New Covenant Fulfillment",
+        "rationale": "Old Testament prophecies of the new covenant that Hebrews 10 declares fulfilled in Christ's sacrifice and the forgiveness of sins",
+        "edges": ["Jeremiah 31:33-34", "Habakkuk 2:3-4"]
+      },
+      {
+        "name": "Confident Access to God",
+        "rationale": "Passages describing the believer's bold, unhindered access to God through Christ's high-priestly work",
+        "edges": ["Hebrews 4:14-16"]
+      },
+      {
+        "name": "Warning Against Apostasy",
+        "rationale": "Parallel warning passages in Hebrews and the Old Testament background of covenant unfaithfulness and its consequences",
+        "edges": ["Hebrews 6:4-6", "Deuteronomy 17:6"]
+      },
+      {
+        "name": "Mutual Encouragement and Perseverance",
+        "rationale": "Exhortations to communal encouragement and steadfast endurance rooted in eschatological hope",
+        "edges": ["1 Thessalonians 5:11"]
+      }
+    ]
+  },
+  "step5_application": {
+    "principles": [
+      {
+        "statement": "Christ's single sacrifice is fully sufficient to forgive and perfect believers",
+        "grounding": "Verses 10-14 declare that by one offering Christ has perfected for all time those being sanctified, and where sins are forgiven there is no longer any offering for sin (v. 18). This eliminates any need to supplement or repeat his work."
+      },
+      {
+        "statement": "Access to God is a blood-bought privilege that calls for active, communal faithfulness",
+        "grounding": "Verses 19-25 move from the indicative (we have confidence to enter) to three imperatives: draw near, hold fast, stir up one another. Privilege entails responsibility exercised in community."
+      },
+      {
+        "statement": "Persistent, willful rejection of Christ's sacrifice leaves no alternative remedy for sin",
+        "grounding": "Verses 26-31 warn that those who trample the Son of God and profane the blood of the covenant face a fearful expectation of judgment, because no further sacrifice remains."
+      }
+    ],
+    "prompts": [
+      {
+        "category": "belief",
+        "text": "Do I truly believe that Christ's sacrifice is sufficient for my forgiveness, or do I functionally try to atone for my own guilt through religious performance or self-punishment?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "The author calls believers to 'draw near' — what concrete step can I take this week to approach God with the confidence that Christ's blood has opened the way for me?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "prayer",
+        "text": "Lord, thank you that by your one offering you have perfected me forever. Help me to rest in that finished work rather than striving to earn what you have freely given.",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "community",
+        "text": "Hebrews 10:24-25 warns against neglecting meeting together. How am I actively stirring up fellow believers toward love and good works, especially as pressures mount?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "The original readers endured suffering and stood with those who were persecuted (vv. 32-34). Is there someone in my community facing hardship with whom I need to stand in solidarity?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "belief",
+        "text": "How does the warning of verses 26-31 shape my understanding of the seriousness of turning away from the faith? Does this passage challenge complacency in my walk with God?",
+        "conditional": true,
+        "condition_note": "Best engaged in a discipleship or accountability setting where the tension between assurance and warning can be explored carefully."
+      }
+    ]
+  }
+}

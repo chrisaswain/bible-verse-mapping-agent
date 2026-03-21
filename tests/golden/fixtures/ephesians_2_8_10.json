@@ -1,0 +1,285 @@
+{
+  "reference": "Ephesians 2:8-10",
+  "step1_context": {
+    "reference": {
+      "raw": "Ephesians 2:8-10",
+      "spans": [{"book": "Ephesians", "chapter": 2, "verse_start": 8, "verse_end": 10}]
+    },
+    "context_window": [
+      {"book": "Ephesians", "chapter": 1, "verse_start": 23, "verse_end": null},
+      {"book": "Ephesians", "chapter": 2, "verse_start": 1, "verse_end": 20}
+    ],
+    "flow_summary": "Paul recounts the believers' former condition — dead in trespasses and sins, following the world and the flesh (2:1-3). God, rich in mercy and great in love, made them alive together with Christ (2:4-5). They have been raised and seated with Christ in the heavenly places (2:6-7). Salvation is by grace through faith, not of works, so that no one may boast (2:8-9). Believers are God's workmanship, created in Christ Jesus for good works prepared beforehand (2:10). The passage then turns to Jew-Gentile unity in one new humanity through the cross (2:11-20).",
+    "genre": "Epistle",
+    "genre_rationale": "Ephesians is a Pauline letter addressed to the church at Ephesus, containing theological exposition followed by practical exhortation.",
+    "redemptive_historical_tag": "Church",
+    "redemptive_historical_rationale": "Paul writes to the established church, explaining how God's redemptive plan in Christ creates a new people — saved by grace and purposed for good works — within the inaugurated new-covenant era."
+  },
+  "step2_translations": {
+    "always_included": true,
+    "renderings": [
+      {"translation": "KJV", "text": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast. For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them."},
+      {"translation": "ESV", "text": "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast. For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them."},
+      {"translation": "NIV", "text": "For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast. For we are God's handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do."}
+    ],
+    "variant_signals": [
+      {
+        "keyword": "that / this",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "The Greek touto ('this') is neuter, while both charis (grace) and pistis (faith) are feminine. This grammatical mismatch has led to debate: does 'this' refer to grace, faith, or the entire preceding clause (salvation by grace through faith)? Most scholars take it as referring to the whole salvation package, not faith alone."
+      },
+      {
+        "keyword": "workmanship / handiwork",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV and ESV use 'workmanship' (poiēma), while NIV renders it 'handiwork.' The NIV rendering emphasizes the artisan-craft metaphor more vividly, underscoring believers as God's masterpiece or creative product."
+      },
+      {
+        "keyword": "before ordained / prepared beforehand / prepared in advance",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "The verb proētoimasen conveys divine pre-arrangement. KJV's 'before ordained' has a more predestinarian tone, while ESV and NIV emphasize purposeful preparation, highlighting that good works are part of God's design rather than human initiative."
+      }
+    ],
+    "impact_summary": "The most significant translation variant is the referent of 'this/that' in v. 8 — whether it points to faith, grace, or the entire salvation event. The neuter demonstrative touto most naturally refers to the whole preceding concept, reinforcing that salvation in its entirety is God's gift. Secondary differences in 'workmanship' vs. 'handiwork' and the rendering of proētoimasen shape how vividly readers perceive God's creative agency and sovereign preparation."
+  },
+  "step3_keywords": {
+    "keywords": [
+      {
+        "keyword": "grace",
+        "lemma": "\u03c7\u03ac\u03c1\u03b9\u03c2",
+        "transliteration": "charis",
+        "lexical_id": "G5485",
+        "language": "Greek",
+        "gloss_range": ["grace", "favor", "gift", "goodwill"],
+        "usage_examples": [
+          {"reference": "Romans 3:24", "snippet": "justified by his grace as a gift, through the redemption that is in Christ Jesus"},
+          {"reference": "Romans 11:6", "snippet": "if it is by grace, it is no longer on the basis of works"},
+          {"reference": "2 Corinthians 12:9", "snippet": "My grace is sufficient for you"}
+        ],
+        "possible_meanings": ["unmerited divine favor", "empowering enablement", "gift or benefaction"],
+        "meaning_in_context": "God's unmerited favor toward sinners — the ground and source of salvation, contrasted explicitly with human works or merit",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "faith",
+        "lemma": "\u03c0\u03af\u03c3\u03c4\u03b9\u03c2",
+        "transliteration": "pistis",
+        "lexical_id": "G4102",
+        "language": "Greek",
+        "gloss_range": ["faith", "trust", "belief", "faithfulness"],
+        "usage_examples": [
+          {"reference": "Romans 1:17", "snippet": "the righteous shall live by faith"},
+          {"reference": "Galatians 2:16", "snippet": "a person is not justified by works of the law but through faith in Jesus Christ"},
+          {"reference": "Hebrews 11:1", "snippet": "faith is the assurance of things hoped for"}
+        ],
+        "possible_meanings": ["trust or reliance", "belief or conviction", "faithfulness or fidelity"],
+        "meaning_in_context": "The instrument or channel through which grace is received — personal trust in Christ, not a meritorious act but the empty hand that receives God's gift",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "saved",
+        "lemma": "\u03c3\u03ce\u03b6\u03c9",
+        "transliteration": "s\u014dz\u014d",
+        "lexical_id": "G4982",
+        "language": "Greek",
+        "gloss_range": ["to save", "to deliver", "to rescue", "to heal"],
+        "usage_examples": [
+          {"reference": "Romans 10:9", "snippet": "if you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved"},
+          {"reference": "Titus 3:5", "snippet": "he saved us, not because of works done by us in righteousness"}
+        ],
+        "possible_meanings": ["deliverance from sin and wrath", "rescue from danger", "physical healing"],
+        "meaning_in_context": "Spiritual deliverance from sin, death, and divine wrath; the perfect periphrastic este sesōsmenoi ('you have been saved') emphasizes a completed past action with ongoing present results",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "workmanship",
+        "lemma": "\u03c0\u03bf\u03af\u03b7\u03bc\u03b1",
+        "transliteration": "poi\u0113ma",
+        "lexical_id": "G4161",
+        "language": "Greek",
+        "gloss_range": ["workmanship", "handiwork", "creation", "thing made"],
+        "usage_examples": [
+          {"reference": "Romans 1:20", "snippet": "his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made"}
+        ],
+        "possible_meanings": ["something made or crafted", "a work of art or masterpiece", "a created thing"],
+        "meaning_in_context": "Believers as God's creative masterwork — the noun echoes Genesis creation language and underscores that new-creation identity is God's handiwork, not self-made",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "good works",
+        "lemma": "\u1f14\u03c1\u03b3\u03bf\u03bd \u1f00\u03b3\u03b1\u03b8\u03cc\u03bd",
+        "transliteration": "ergon agathon",
+        "lexical_id": "G2041+G18",
+        "language": "Greek",
+        "gloss_range": ["good works", "good deeds", "beneficial actions"],
+        "usage_examples": [
+          {"reference": "Titus 2:14", "snippet": "a people for his own possession who are zealous for good works"},
+          {"reference": "Titus 3:8", "snippet": "those who have believed in God may be careful to devote themselves to good works"}
+        ],
+        "possible_meanings": ["morally excellent deeds", "acts of service and obedience", "beneficial conduct"],
+        "meaning_in_context": "The purpose and fruit of salvation — not the cause of being saved but the goal for which believers were re-created; God prepared them in advance for believers to walk in",
+        "influenced_by_translation_diff": false
+      }
+    ]
+  },
+  "step4_crossrefs": {
+    "edges": [
+      {
+        "source": "Ephesians 2:8-9",
+        "target": "Romans 3:24",
+        "relationship_types": ["verbal_parallel", "thematic_parallel"],
+        "score": 95,
+        "score_breakdown": {"lexical": 23, "thematic": 25, "structural": 22, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "and are justified by his grace as a gift, through the redemption that is in Christ Jesus"
+      },
+      {
+        "source": "Ephesians 2:8-9",
+        "target": "Titus 3:5-7",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 94,
+        "score_breakdown": {"lexical": 22, "thematic": 25, "structural": 22, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "he saved us, not because of works done by us in righteousness, but according to his own mercy"
+      },
+      {
+        "source": "Ephesians 2:8-9",
+        "target": "Romans 6:23",
+        "relationship_types": ["thematic_parallel"],
+        "score": 88,
+        "score_breakdown": {"lexical": 18, "thematic": 25, "structural": 20, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord."
+      },
+      {
+        "source": "Ephesians 2:8-9",
+        "target": "Romans 4:4-5",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 90,
+        "score_breakdown": {"lexical": 20, "thematic": 25, "structural": 20, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "And to the one who does not work but believes in him who justifies the ungodly, his faith is counted as righteousness."
+      },
+      {
+        "source": "Ephesians 2:10",
+        "target": "James 2:17",
+        "relationship_types": ["complementary", "thematic_parallel"],
+        "score": 80,
+        "score_breakdown": {"lexical": 15, "thematic": 25, "structural": 15, "theological": 25},
+        "provenance": "agent",
+        "snippet": "So also faith by itself, if it does not have works, is dead."
+      },
+      {
+        "source": "Ephesians 2:10",
+        "target": "2 Corinthians 5:17",
+        "relationship_types": ["verbal_parallel", "theological_development"],
+        "score": 85,
+        "score_breakdown": {"lexical": 20, "thematic": 25, "structural": 15, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come."
+      },
+      {
+        "source": "Ephesians 2:8-9",
+        "target": "Galatians 2:16",
+        "relationship_types": ["verbal_parallel", "thematic_parallel"],
+        "score": 93,
+        "score_breakdown": {"lexical": 23, "thematic": 25, "structural": 20, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "yet we know that a person is not justified by works of the law but through faith in Jesus Christ"
+      },
+      {
+        "source": "Ephesians 2:1-5",
+        "target": "Romans 5:6-8",
+        "relationship_types": ["thematic_parallel", "structural_parallel"],
+        "score": 86,
+        "score_breakdown": {"lexical": 16, "thematic": 25, "structural": 20, "theological": 25},
+        "provenance": "agent",
+        "snippet": "For while we were still weak, at the right time Christ died for the ungodly."
+      },
+      {
+        "source": "Ephesians 2:10",
+        "target": "Philippians 2:12-13",
+        "relationship_types": ["complementary", "theological_development"],
+        "score": 82,
+        "score_breakdown": {"lexical": 15, "thematic": 22, "structural": 20, "theological": 25},
+        "provenance": "agent",
+        "snippet": "work out your own salvation with fear and trembling, for it is God who works in you"
+      }
+    ],
+    "clusters": [
+      {
+        "name": "Salvation by Grace, Not Works",
+        "rationale": "Passages that explicitly contrast grace/gift with human effort or works as the basis of salvation",
+        "edges": ["Romans 3:24", "Titus 3:5-7", "Romans 6:23", "Romans 4:4-5", "Galatians 2:16"]
+      },
+      {
+        "name": "New Creation in Christ",
+        "rationale": "Passages describing believers as God's new creation, re-made for a transformed life",
+        "edges": ["2 Corinthians 5:17"]
+      },
+      {
+        "name": "Faith and Works in Proper Relationship",
+        "rationale": "Passages that clarify the relationship between saving faith and the good works that flow from it",
+        "edges": ["James 2:17", "Philippians 2:12-13"]
+      },
+      {
+        "name": "Dead in Sin, Alive in Christ",
+        "rationale": "Passages describing humanity's helpless spiritual condition and God's initiative in giving life",
+        "edges": ["Romans 5:6-8", "Romans 6:23"]
+      }
+    ]
+  },
+  "step5_application": {
+    "principles": [
+      {
+        "statement": "Salvation is entirely a gift of God's grace, not a reward for human effort",
+        "grounding": "Paul states that salvation is 'by grace ... through faith ... not of works' (vv. 8-9), excluding every form of self-merit as a contributing cause."
+      },
+      {
+        "statement": "Faith is the instrument that receives grace, not a work that earns it",
+        "grounding": "Faith (pistis) is presented as the channel 'through' which grace operates; the neuter 'this' (touto) indicates that even the faith-grace dynamic is God's gift, not self-generated."
+      },
+      {
+        "statement": "Good works are the purpose of salvation, not the prerequisite",
+        "grounding": "Verse 10 reframes works: believers are God's poiēma created 'for good works, which God prepared beforehand.' Works follow salvation as designed fruit, not as a precondition."
+      }
+    ],
+    "prompts": [
+      {
+        "category": "belief",
+        "text": "Do I truly believe that my standing before God depends entirely on His grace and not on my performance? Where might I be unconsciously adding conditions to the gift?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "Since I am God's workmanship created for good works, what specific 'good works' has God placed in my path this week that I may be overlooking or resisting?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "prayer",
+        "text": "Father, I confess that I sometimes treat your grace as something I must supplement with my own effort. Help me to rest in the finished work of Christ and to walk freely in the good works you have prepared for me.",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "community",
+        "text": "How might our church community better communicate the grace-not-works message to people who feel they must clean up their lives before God will accept them?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "belief",
+        "text": "What does it mean that I am God's 'workmanship' or 'masterpiece'? How should this identity reshape the way I view myself and others in the body of Christ?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "If boasting is excluded (v. 9), in what areas of my spiritual life am I tempted to take credit or compare myself with others?",
+        "conditional": false,
+        "condition_note": null
+      }
+    ]
+  }
+}

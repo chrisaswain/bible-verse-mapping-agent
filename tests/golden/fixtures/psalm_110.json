@@ -1,0 +1,297 @@
+{
+  "reference": "Psalm 110",
+  "step1_context": {
+    "reference": {
+      "raw": "Psalm 110",
+      "spans": [{"book": "Psalms", "chapter": 110, "verse_start": 1, "verse_end": 7}]
+    },
+    "context_window": [
+      {"book": "Psalms", "chapter": 109, "verse_start": 20, "verse_end": 31},
+      {"book": "Psalms", "chapter": 110, "verse_start": 1, "verse_end": 7},
+      {"book": "Psalms", "chapter": 111, "verse_start": 1, "verse_end": 10}
+    ],
+    "flow_summary": "Psalm 110 is a Davidic oracle in which YHWH addresses David's Lord (the Messiah), enthroning him at God's right hand (v. 1), extending his royal scepter from Zion (v. 2), gathering a willing people on the day of battle (v. 3), and swearing an irrevocable oath that he is a priest forever after the order of Melchizedek (v. 4). The closing verses depict the Messianic king executing judgment among the nations (vv. 5-6) and being refreshed for continued conquest (v. 7). The psalm uniquely merges the offices of king and priest in one figure, anticipating the New Testament identification of Jesus as both reigning Lord and eternal high priest.",
+    "genre": "Poetry / Royal Psalm",
+    "genre_rationale": "Psalm 110 is classified as a royal psalm because it addresses the enthronement and military dominion of the Davidic king. Its oracular introduction ('The LORD declared to my Lord') marks it as a prophetic word delivered in poetic form within Israel's worship.",
+    "redemptive_historical_tag": "Promise",
+    "redemptive_historical_rationale": "This psalm stands within the Davidic covenant promise stream (2 Samuel 7), projecting forward to an ideal king-priest who would fulfill what no historical Davidic monarch fully achieved. It is the most frequently quoted Old Testament passage in the New Testament, applied directly to the exalted Christ."
+  },
+  "step2_translations": {
+    "always_included": true,
+    "renderings": [
+      {"translation": "KJV", "text": "The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool. The LORD shall send the rod of thy strength out of Zion: rule thou in the midst of thine enemies. Thy people shall be willing in the day of thy power, in the beauties of holiness from the womb of the morning: thou hast the dew of thy youth. The LORD hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek. The Lord at thy right hand shall strike through kings in the day of his wrath. He shall judge among the heathen, he shall fill the places with the dead bodies; he shall wound the heads over many countries. He shall drink of the brook in the way: therefore shall he lift up the head."},
+      {"translation": "ESV", "text": "The LORD says to my Lord: \"Sit at my right hand, until I make your enemies your footstool.\" The LORD sends forth from Zion your mighty scepter. Rule in the midst of your enemies! Your people will offer themselves freely on the day of your power, in holy garments; from the womb of the morning, the dew of your youth will be yours. The LORD has sworn and will not change his mind, \"You are a priest forever after the order of Melchizedek.\" The Lord is at your right hand; he will shatter kings on the day of his wrath. He will execute judgment among the nations, filling them with corpses; he will shatter chiefs over the wide earth. He will drink from the brook by the way; therefore he will lift up his head."},
+      {"translation": "NIV", "text": "The LORD says to my lord: \"Sit at my right hand until I make your enemies a footstool for your feet.\" The LORD will extend your mighty scepter from Zion, saying, \"Rule in the midst of your enemies!\" Your troops will be willing on your day of battle. Arrayed in holy splendor, your young men will come to you like dew from the morning's womb. The LORD has sworn and will not change his mind: \"You are a priest forever, in the order of Melchizedek.\" The Lord is at your right hand; he will crush kings on the day of his wrath. He will judge the nations, heaping up the dead and crushing the rulers of the whole earth. He will drink from a brook along the way, and so he will lift his head high."}
+    ],
+    "variant_signals": [
+      {
+        "keyword": "LORD said unto my Lord / LORD says to my Lord / LORD says to my lord",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "The double use of 'Lord' renders two distinct Hebrew words: YHWH (the covenant name of God) and adoni (my lord/master). The NIV lowercases 'lord' for adoni, while KJV and ESV capitalize 'Lord,' signaling a divine or messianic figure. This distinction is central to Jesus' argument in Matthew 22:44."
+      },
+      {
+        "keyword": "after the order of / in the order of",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "Hebrew al-dibrati can mean 'according to the order/manner of.' The preposition choice ('after' vs. 'in') subtly affects whether one reads succession or likeness. Hebrews 5-7 develops this extensively as a priestly category distinct from the Levitical line."
+      },
+      {
+        "keyword": "willing / offer themselves freely / troops will be willing",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "The Hebrew nedavot (freewill offerings / voluntariness) is rendered differently: KJV focuses on the people's willingness, ESV on their self-offering, and NIV on military readiness. This affects whether the image is cultic or martial."
+      }
+    ],
+    "impact_summary": "The most consequential variant is the rendering of the two distinct Hebrew terms for 'Lord' in verse 1, which undergirds the NT christological argument that the Messiah is David's Lord, not merely his descendant. The Melchizedek phrase and the voluntariness of the people in verse 3 also show meaningful translation divergence that affects interpretation."
+  },
+  "step3_keywords": {
+    "keywords": [
+      {
+        "keyword": "LORD (YHWH)",
+        "lemma": "\u05d9\u05d4\u05d5\u05d4",
+        "transliteration": "YHWH",
+        "lexical_id": "H3068",
+        "language": "Hebrew",
+        "gloss_range": ["the LORD", "Yahweh", "Jehovah"],
+        "usage_examples": [
+          {"reference": "Exodus 3:14-15", "snippet": "The LORD, the God of your fathers, has sent me to you"},
+          {"reference": "Psalm 2:4", "snippet": "He who sits in the heavens laughs; the Lord holds them in derision"}
+        ],
+        "possible_meanings": ["the self-existent one", "covenant God of Israel", "I AM"],
+        "meaning_in_context": "YHWH is the speaker of the oracle in v. 1 and the one who swears the priestly oath in v. 4, acting as the supreme authority who installs the Messianic king-priest.",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "Lord (adon)",
+        "lemma": "\u05d0\u05b8\u05d3\u05d5\u05b9\u05df",
+        "transliteration": "adon",
+        "lexical_id": "H113",
+        "language": "Hebrew",
+        "gloss_range": ["lord", "master", "sovereign"],
+        "usage_examples": [
+          {"reference": "Genesis 18:12", "snippet": "After I am worn out, and my lord is old, shall I have pleasure?"},
+          {"reference": "Joshua 3:11", "snippet": "The ark of the covenant of the Lord of all the earth"}
+        ],
+        "possible_meanings": ["human master", "sovereign ruler", "divine lord"],
+        "meaning_in_context": "David calls the Messiah 'my lord' (adoni), indicating one who is David's superior — a key point Jesus leverages in Matthew 22:41-46 to demonstrate that the Christ is more than David's biological son.",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "priest",
+        "lemma": "\u05db\u05b9\u05bc\u05d4\u05b5\u05df",
+        "transliteration": "kohen",
+        "lexical_id": "H3548",
+        "language": "Hebrew",
+        "gloss_range": ["priest", "minister", "chief ruler"],
+        "usage_examples": [
+          {"reference": "Genesis 14:18", "snippet": "Melchizedek king of Salem brought out bread and wine. He was priest of God Most High"},
+          {"reference": "Exodus 28:1", "snippet": "Bring near to you Aaron your brother... to serve me as priests"}
+        ],
+        "possible_meanings": ["one who officiates at the altar", "mediator between God and people", "sacred minister"],
+        "meaning_in_context": "The Messianic figure is declared a priest forever, merging royal and sacerdotal offices in a way that transcends the Levitical order and points to Melchizedek's unique priesthood — a theme central to Hebrews 5-7.",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "right hand",
+        "lemma": "\u05d9\u05b8\u05de\u05b4\u05d9\u05df",
+        "transliteration": "yamin",
+        "lexical_id": "H3225",
+        "language": "Hebrew",
+        "gloss_range": ["right hand", "right side", "south"],
+        "usage_examples": [
+          {"reference": "Psalm 16:11", "snippet": "In your presence there is fullness of joy; at your right hand are pleasures forevermore"},
+          {"reference": "Psalm 98:1", "snippet": "His right hand and his holy arm have worked salvation for him"}
+        ],
+        "possible_meanings": ["place of honor", "position of power and authority", "geographical direction (south)"],
+        "meaning_in_context": "Sitting at God's right hand denotes the supreme place of authority and co-regency. This image becomes the foundational metaphor for Christ's exaltation in Acts 2:33-35, Ephesians 1:20, and Hebrews 1:3.",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "Melchizedek",
+        "lemma": "\u05de\u05b7\u05dc\u05b0\u05db\u05b4\u05bc\u05d9\u05be\u05e6\u05b6\u05d3\u05b6\u05e7",
+        "transliteration": "Malki-tsedeq",
+        "lexical_id": "H4442",
+        "language": "Hebrew",
+        "gloss_range": ["my king is righteous", "king of righteousness"],
+        "usage_examples": [
+          {"reference": "Genesis 14:18", "snippet": "And Melchizedek king of Salem brought out bread and wine. He was priest of God Most High"},
+          {"reference": "Hebrews 7:1", "snippet": "This Melchizedek, king of Salem, priest of the Most High God"}
+        ],
+        "possible_meanings": ["the historical king-priest of Salem", "a priestly archetype outside the Levitical line", "a type of Christ's eternal priesthood"],
+        "meaning_in_context": "Melchizedek is invoked as the prototype for the Messiah's priesthood — a non-Levitical, royal priesthood without recorded genealogical succession, establishing the basis for the argument in Hebrews that Jesus' priesthood is superior to Aaron's.",
+        "influenced_by_translation_diff": true
+      }
+    ]
+  },
+  "step4_crossrefs": {
+    "edges": [
+      {
+        "source": "Psalm 110:1",
+        "target": "Matthew 22:44",
+        "relationship_types": ["direct_quotation", "christological_fulfillment"],
+        "score": 98,
+        "score_breakdown": {"lexical": 25, "thematic": 25, "structural": 23, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "The Lord said to my Lord, 'Sit at my right hand, until I put your enemies under your feet.'"
+      },
+      {
+        "source": "Psalm 110:1",
+        "target": "Acts 2:34-35",
+        "relationship_types": ["direct_quotation", "theological_development"],
+        "score": 97,
+        "score_breakdown": {"lexical": 25, "thematic": 25, "structural": 22, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "For David did not ascend into the heavens, but he himself says, 'The Lord said to my Lord, Sit at my right hand, until I make your enemies your footstool.'"
+      },
+      {
+        "source": "Psalm 110:4",
+        "target": "Hebrews 5:6",
+        "relationship_types": ["direct_quotation", "theological_development"],
+        "score": 97,
+        "score_breakdown": {"lexical": 24, "thematic": 25, "structural": 23, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "As he says also in another place, 'You are a priest forever, after the order of Melchizedek.'"
+      },
+      {
+        "source": "Psalm 110:4",
+        "target": "Hebrews 7:17",
+        "relationship_types": ["direct_quotation", "typological"],
+        "score": 95,
+        "score_breakdown": {"lexical": 24, "thematic": 25, "structural": 21, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "For it is witnessed of him, 'You are a priest forever, after the order of Melchizedek.'"
+      },
+      {
+        "source": "Psalm 110:1",
+        "target": "1 Corinthians 15:25",
+        "relationship_types": ["allusion", "theological_development"],
+        "score": 88,
+        "score_breakdown": {"lexical": 18, "thematic": 24, "structural": 22, "theological": 24},
+        "provenance": "openbible",
+        "snippet": "For he must reign until he has put all his enemies under his feet."
+      },
+      {
+        "source": "Psalm 110:1",
+        "target": "Hebrews 1:3",
+        "relationship_types": ["allusion", "thematic_parallel"],
+        "score": 90,
+        "score_breakdown": {"lexical": 20, "thematic": 24, "structural": 22, "theological": 24},
+        "provenance": "openbible",
+        "snippet": "After making purification for sins, he sat down at the right hand of the Majesty on high."
+      },
+      {
+        "source": "Psalm 110:1",
+        "target": "Hebrews 1:13",
+        "relationship_types": ["direct_quotation", "christological_fulfillment"],
+        "score": 96,
+        "score_breakdown": {"lexical": 25, "thematic": 25, "structural": 21, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "And to which of the angels has he ever said, 'Sit at my right hand until I make your enemies a footstool for your feet'?"
+      },
+      {
+        "source": "Psalm 110:4",
+        "target": "Genesis 14:18-20",
+        "relationship_types": ["typological", "historical_reference"],
+        "score": 82,
+        "score_breakdown": {"lexical": 18, "thematic": 22, "structural": 18, "theological": 24},
+        "provenance": "agent",
+        "snippet": "And Melchizedek king of Salem brought out bread and wine. He was priest of God Most High."
+      },
+      {
+        "source": "Psalm 110:1-2",
+        "target": "Psalm 2:6-9",
+        "relationship_types": ["thematic_parallel", "verbal_parallel"],
+        "score": 85,
+        "score_breakdown": {"lexical": 17, "thematic": 24, "structural": 20, "theological": 24},
+        "provenance": "agent",
+        "snippet": "I have set my King on Zion, my holy hill... You shall break them with a rod of iron."
+      },
+      {
+        "source": "Psalm 110:1",
+        "target": "Ephesians 1:20-22",
+        "relationship_types": ["allusion", "theological_development"],
+        "score": 87,
+        "score_breakdown": {"lexical": 18, "thematic": 24, "structural": 21, "theological": 24},
+        "provenance": "openbible",
+        "snippet": "He raised him from the dead and seated him at his right hand in the heavenly places, far above all rule and authority."
+      },
+      {
+        "source": "Psalm 110:1",
+        "target": "Mark 12:36",
+        "relationship_types": ["direct_quotation", "christological_fulfillment"],
+        "score": 97,
+        "score_breakdown": {"lexical": 25, "thematic": 25, "structural": 22, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "David himself, in the Holy Spirit, declared, 'The Lord said to my Lord, Sit at my right hand, until I put your enemies under your feet.'"
+      }
+    ],
+    "clusters": [
+      {
+        "name": "Session at God's Right Hand",
+        "rationale": "New Testament passages that quote or allude to the Messiah's enthronement at God's right hand from Psalm 110:1",
+        "edges": ["Matthew 22:44", "Acts 2:34-35", "Hebrews 1:3", "Hebrews 1:13", "Ephesians 1:20-22", "Mark 12:36"]
+      },
+      {
+        "name": "Melchizedekian Priesthood",
+        "rationale": "Passages developing the Messiah's eternal priesthood after the order of Melchizedek, contrasted with the Levitical order",
+        "edges": ["Hebrews 5:6", "Hebrews 7:17", "Genesis 14:18-20"]
+      },
+      {
+        "name": "Subjugation of Enemies",
+        "rationale": "Texts describing Christ's progressive reign until all opposition is brought under his authority",
+        "edges": ["1 Corinthians 15:25", "Psalm 2:6-9"]
+      },
+      {
+        "name": "Davidic Messianic Identity",
+        "rationale": "Passages where Jesus or the apostles use Psalm 110 to demonstrate the Messiah's identity as more than David's descendant",
+        "edges": ["Matthew 22:44", "Mark 12:36", "Acts 2:34-35"]
+      }
+    ]
+  },
+  "step5_application": {
+    "principles": [
+      {
+        "statement": "Jesus holds supreme authority as the exalted king enthroned at God's right hand.",
+        "grounding": "Verse 1 declares the Messiah seated at YHWH's right hand, the position of ultimate authority. The NT applies this to Christ's ascension and present reign (Acts 2:33-36, Ephesians 1:20-22)."
+      },
+      {
+        "statement": "Christ's priesthood is permanent, personal, and superior to any earthly religious institution.",
+        "grounding": "Verse 4 establishes an irrevocable divine oath that the Messiah is a priest forever after the order of Melchizedek — a priesthood that predates and surpasses the Levitical system (Hebrews 7:22-25)."
+      },
+      {
+        "statement": "Willing devotion, not coercion, characterizes the people who belong to the Messianic king.",
+        "grounding": "Verse 3 pictures a people who volunteer freely on the day of the king's power, reflecting the NT pattern where believers respond to grace with joyful self-offering (Romans 12:1)."
+      }
+    ],
+    "prompts": [
+      {
+        "category": "belief",
+        "text": "If Jesus is already enthroned at God's right hand, how should that reshape my view of what ultimately controls the events of my life and the world?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "Verse 3 describes a people who offer themselves willingly. In what specific area of my life am I holding back from wholehearted surrender to Christ's lordship?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "prayer",
+        "text": "Lord Jesus, you are both my king and my priest. I confess that I sometimes look to other sources of authority or mediation rather than resting in your finished work. Help me to live under your reign with a willing heart.",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "community",
+        "text": "How does the reality of Christ's present kingship shape the way our community engages with injustice, knowing that all enemies will ultimately be placed under his feet?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "belief",
+        "text": "What comfort does Christ's permanent priesthood offer me that temporary human mediators or religious systems cannot provide?",
+        "conditional": false,
+        "condition_note": null
+      }
+    ]
+  }
+}

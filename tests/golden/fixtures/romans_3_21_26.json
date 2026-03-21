@@ -1,0 +1,292 @@
+{
+  "reference": "Romans 3:21-26",
+  "step1_context": {
+    "reference": {
+      "raw": "Romans 3:21-26",
+      "spans": [{"book": "Romans", "chapter": 3, "verse_start": 21, "verse_end": 26}]
+    },
+    "context_window": [
+      {"book": "Romans", "chapter": 3, "verse_start": 11, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 12, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 13, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 14, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 15, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 16, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 17, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 18, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 19, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 20, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 21, "verse_end": 26},
+      {"book": "Romans", "chapter": 3, "verse_start": 27, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 28, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 29, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 30, "verse_end": null},
+      {"book": "Romans", "chapter": 3, "verse_start": 31, "verse_end": null},
+      {"book": "Romans", "chapter": 4, "verse_start": 1, "verse_end": null},
+      {"book": "Romans", "chapter": 4, "verse_start": 2, "verse_end": null},
+      {"book": "Romans", "chapter": 4, "verse_start": 3, "verse_end": null},
+      {"book": "Romans", "chapter": 4, "verse_start": 4, "verse_end": null},
+      {"book": "Romans", "chapter": 4, "verse_start": 5, "verse_end": null}
+    ],
+    "flow_summary": "After establishing the universal sinfulness of humanity (1:18-3:20), Paul pivots with 'But now' to reveal how God's righteousness has been manifested apart from the law, through faith in Jesus Christ. All have sinned and fall short, yet believers are justified freely by God's grace through the redemption in Christ Jesus, whom God put forward as a propitiation by his blood. This vindicates God's own righteousness: he is both just and the justifier of the one who has faith in Jesus. The passage forms the theological climax of Romans 1-4, transitioning from condemnation to justification.",
+    "genre": "Epistle",
+    "genre_rationale": "Romans is a Pauline epistle — a formal theological letter addressed to the church in Rome, presenting a systematic argument for the gospel of justification by faith.",
+    "redemptive_historical_tag": "Cross",
+    "redemptive_historical_rationale": "Paul grounds justification in Christ's atoning death on the cross, presented as the definitive act by which God demonstrates his righteousness and provides redemption for sinners."
+  },
+  "step2_translations": {
+    "always_included": true,
+    "renderings": [
+      {"translation": "KJV", "text": "But now the righteousness of God without the law is manifested, being witnessed by the law and the prophets; Even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe: for there is no difference: For all have sinned, and come short of the glory of God; Being justified freely by his grace through the redemption that is in Christ Jesus: Whom God hath set forth to be a propitiation through faith in his blood, to declare his righteousness for the remission of sins that are past, through the forbearance of God; To declare, I say, at this time his righteousness: that he might be just, and the justifier of him which believeth in Jesus."},
+      {"translation": "ESV", "text": "But now the righteousness of God has been manifested apart from the law, although the Law and the Prophets bear witness to it\u2014 the righteousness of God through faith in Jesus Christ for all who believe. For there is no distinction: for all have sinned and fall short of the glory of God, and are justified by his grace as a gift, through the redemption that is in Christ Jesus, whom God put forward as a propitiation by his blood, to be received by faith. This was to show God's righteousness, because in his divine forbearance he had passed over former sins. It was to show his righteousness at the present time, so that he might be just and the justifier of the one who has faith in Jesus."},
+      {"translation": "NIV", "text": "But now apart from the law the righteousness of God has been made known, to which the Law and the Prophets testify. This righteousness is given through faith in Jesus Christ to all who believe. There is no difference between Jew and Gentile, for all have sinned and fall short of the glory of God, and all are justified freely by his grace through the redemption that came by Christ Jesus. God presented Christ as a sacrifice of atonement, through the shedding of his blood\u2014to be received by faith. He did this to demonstrate his righteousness, because in his forbearance he had left the sins committed beforehand unpunished. He did it to demonstrate his righteousness at the present time, so as to be just and the one who justifies those who have faith in Jesus."}
+    ],
+    "variant_signals": [
+      {
+        "keyword": "propitiation / sacrifice of atonement",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV and ESV retain 'propitiation' (wrath-bearing substitution), while NIV renders 'sacrifice of atonement,' which broadens the meaning toward expiation. This affects whether the emphasis falls on appeasing God's wrath or on the cleansing of sin."
+      },
+      {
+        "keyword": "faith of Jesus Christ / faith in Jesus Christ",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "The KJV's 'faith of Jesus Christ' preserves the ambiguity of the Greek genitive (pistis Christou), which could mean Christ's own faithfulness or the believer's faith in Christ. ESV and NIV resolve the genitive as objective ('faith in Jesus Christ'), a significant interpretive decision in Pauline theology."
+      },
+      {
+        "keyword": "set forth / put forward / presented",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "The verb proetheto can mean 'set forth publicly' or 'purposed/planned.' The rendering affects whether the emphasis is on the public display of Christ's sacrifice or God's eternal purpose behind it."
+      }
+    ],
+    "impact_summary": "Three major translation differences shape interpretation: (1) hilasterion as 'propitiation' vs. 'sacrifice of atonement' determines whether God's wrath or sin's defilement is foregrounded; (2) pistis Christou as subjective ('faith of Christ') vs. objective ('faith in Christ') genitive impacts whether Christ's faithfulness or human belief is in view; (3) proetheto as 'set forth' vs. 'presented' shifts emphasis between public display and divine purpose. Together these variants touch the core mechanics of atonement theology."
+  },
+  "step3_keywords": {
+    "keywords": [
+      {
+        "keyword": "righteousness",
+        "lemma": "\u03b4\u03b9\u03ba\u03b1\u03b9\u03bf\u03c3\u03cd\u03bd\u03b7",
+        "transliteration": "dikaiosyn\u0113",
+        "lexical_id": "G1343",
+        "language": "Greek",
+        "gloss_range": ["righteousness", "justice", "justification", "uprightness"],
+        "usage_examples": [
+          {"reference": "Romans 1:17", "snippet": "For in it the righteousness of God is revealed from faith for faith"},
+          {"reference": "Philippians 3:9", "snippet": "not having a righteousness of my own that comes from the law, but that which comes through faith in Christ"}
+        ],
+        "possible_meanings": ["God's moral attribute of justice", "God's saving activity", "a righteous status granted to believers", "covenant faithfulness"],
+        "meaning_in_context": "Both God's attribute of justice and the righteous status he bestows on believers through faith — God's righteousness is simultaneously demonstrated and imparted.",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "propitiation",
+        "lemma": "\u1f31\u03bb\u03b1\u03c3\u03c4\u03ae\u03c1\u03b9\u03bf\u03bd",
+        "transliteration": "hilast\u0113rion",
+        "lexical_id": "G2435",
+        "language": "Greek",
+        "gloss_range": ["propitiation", "mercy seat", "sacrifice of atonement", "atoning sacrifice", "place of atonement"],
+        "usage_examples": [
+          {"reference": "Hebrews 9:5", "snippet": "above it the cherubim of glory overshadowing the mercy seat"},
+          {"reference": "Leviticus 16:14-15 (LXX)", "snippet": "he shall sprinkle the blood on the mercy seat (hilasterion)"}
+        ],
+        "possible_meanings": ["a sacrifice that turns away wrath (propitiation)", "the mercy seat / atonement cover from the tabernacle", "a sacrifice that cleanses sin (expiation)", "the place or means of atonement"],
+        "meaning_in_context": "Christ is the antitype of the mercy seat — the place where God's wrath against sin is satisfied and atonement is accomplished through the shedding of blood, publicly displayed by God as the definitive sacrifice.",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "justified",
+        "lemma": "\u03b4\u03b9\u03ba\u03b1\u03b9\u03cc\u03c9",
+        "transliteration": "dikaioo",
+        "lexical_id": "G1344",
+        "language": "Greek",
+        "gloss_range": ["to justify", "to declare righteous", "to acquit", "to vindicate"],
+        "usage_examples": [
+          {"reference": "Romans 5:1", "snippet": "Therefore, since we have been justified by faith, we have peace with God"},
+          {"reference": "Galatians 2:16", "snippet": "a person is not justified by works of the law but through faith in Jesus Christ"}
+        ],
+        "possible_meanings": ["to declare righteous in a legal/forensic sense", "to make righteous", "to acquit", "to vindicate"],
+        "meaning_in_context": "A forensic declaration — God pronounces believing sinners righteous, not on the basis of their works but freely by his grace through Christ's redemption.",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "redemption",
+        "lemma": "\u1f00\u03c0\u03bf\u03bb\u03cd\u03c4\u03c1\u03c9\u03c3\u03b9\u03c2",
+        "transliteration": "apolytr\u014dsis",
+        "lexical_id": "G629",
+        "language": "Greek",
+        "gloss_range": ["redemption", "release", "deliverance", "liberation"],
+        "usage_examples": [
+          {"reference": "Ephesians 1:7", "snippet": "In him we have redemption through his blood, the forgiveness of our trespasses"},
+          {"reference": "Colossians 1:14", "snippet": "in whom we have redemption, the forgiveness of sins"}
+        ],
+        "possible_meanings": ["release secured by payment of a ransom", "deliverance from slavery or captivity", "liberation from the power and penalty of sin"],
+        "meaning_in_context": "The act of liberation from sin's penalty, secured by the costly sacrifice of Christ — echoing the Exodus and slave-market imagery, emphasizing that justification has a price paid by God himself.",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "faith",
+        "lemma": "\u03c0\u03af\u03c3\u03c4\u03b9\u03c2",
+        "transliteration": "pistis",
+        "lexical_id": "G4102",
+        "language": "Greek",
+        "gloss_range": ["faith", "trust", "belief", "faithfulness", "fidelity"],
+        "usage_examples": [
+          {"reference": "Galatians 2:16", "snippet": "we know that a person is not justified by works of the law but through faith in Jesus Christ"},
+          {"reference": "Hebrews 11:1", "snippet": "Now faith is the assurance of things hoped for, the conviction of things not seen"}
+        ],
+        "possible_meanings": ["personal trust or belief", "the content of what is believed", "faithfulness or fidelity", "Christ's own faithfulness (in pistis Christou debate)"],
+        "meaning_in_context": "The instrument by which believers receive God's righteousness — personal trust directed toward Christ and his atoning work. The pistis Christou construction in v. 22 is debated as either 'faith in Christ' or 'the faithfulness of Christ.'",
+        "influenced_by_translation_diff": true
+      }
+    ]
+  },
+  "step4_crossrefs": {
+    "edges": [
+      {
+        "source": "Romans 3:21-26",
+        "target": "Galatians 2:16",
+        "relationship_types": ["verbal_parallel", "theological_development"],
+        "score": 95,
+        "score_breakdown": {"lexical": 24, "thematic": 25, "structural": 21, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "yet we know that a person is not justified by works of the law but through faith in Jesus Christ"
+      },
+      {
+        "source": "Romans 3:21-26",
+        "target": "Ephesians 2:8-9",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 93,
+        "score_breakdown": {"lexical": 20, "thematic": 25, "structural": 23, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works"
+      },
+      {
+        "source": "Romans 3:21-26",
+        "target": "Leviticus 16:15-16",
+        "relationship_types": ["typological", "thematic_parallel"],
+        "score": 82,
+        "score_breakdown": {"lexical": 15, "thematic": 22, "structural": 20, "theological": 25},
+        "provenance": "agent",
+        "snippet": "Then he shall kill the goat of the sin offering... and sprinkle it on the mercy seat and before the mercy seat"
+      },
+      {
+        "source": "Romans 3:21-26",
+        "target": "Isaiah 53:11",
+        "relationship_types": ["prophetic_fulfillment", "thematic_parallel"],
+        "score": 88,
+        "score_breakdown": {"lexical": 18, "thematic": 25, "structural": 20, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "by his knowledge shall the righteous one, my servant, make many to be accounted righteous, and he shall bear their iniquities"
+      },
+      {
+        "source": "Romans 3:21-26",
+        "target": "Romans 5:1",
+        "relationship_types": ["logical_inference", "verbal_parallel"],
+        "score": 90,
+        "score_breakdown": {"lexical": 22, "thematic": 25, "structural": 20, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "Therefore, since we have been justified by faith, we have peace with God through our Lord Jesus Christ"
+      },
+      {
+        "source": "Romans 3:21-26",
+        "target": "2 Corinthians 5:21",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 91,
+        "score_breakdown": {"lexical": 21, "thematic": 25, "structural": 20, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God"
+      },
+      {
+        "source": "Romans 3:21-26",
+        "target": "1 John 2:2",
+        "relationship_types": ["verbal_parallel", "thematic_parallel"],
+        "score": 85,
+        "score_breakdown": {"lexical": 22, "thematic": 23, "structural": 17, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "He is the propitiation for our sins, and not for ours only but also for the sins of the whole world"
+      },
+      {
+        "source": "Romans 3:21-26",
+        "target": "Genesis 15:6",
+        "relationship_types": ["typological", "thematic_parallel"],
+        "score": 80,
+        "score_breakdown": {"lexical": 18, "thematic": 22, "structural": 18, "theological": 22},
+        "provenance": "agent",
+        "snippet": "And he believed the LORD, and he counted it to him as righteousness"
+      },
+      {
+        "source": "Romans 3:21-26",
+        "target": "Philippians 3:9",
+        "relationship_types": ["verbal_parallel", "theological_development"],
+        "score": 89,
+        "score_breakdown": {"lexical": 23, "thematic": 24, "structural": 19, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "not having a righteousness of my own that comes from the law, but that which comes through faith in Christ"
+      }
+    ],
+    "clusters": [
+      {
+        "name": "Justification by Faith, Not Law",
+        "rationale": "Passages that explicitly contrast justification through faith with works of the law, forming the core Pauline argument",
+        "edges": ["Galatians 2:16", "Ephesians 2:8-9", "Philippians 3:9"]
+      },
+      {
+        "name": "The Atoning Sacrifice",
+        "rationale": "Passages connecting Christ's death to propitiation, substitutionary atonement, and the Day of Atonement typology",
+        "edges": ["Leviticus 16:15-16", "1 John 2:2", "2 Corinthians 5:21"]
+      },
+      {
+        "name": "Righteousness Imputed through Faith",
+        "rationale": "Passages developing the theme of God crediting righteousness to those who believe, from Abraham onward",
+        "edges": ["Genesis 15:6", "Romans 5:1", "Isaiah 53:11"]
+      }
+    ]
+  },
+  "step5_application": {
+    "principles": [
+      {
+        "statement": "Justification is God's free gift, not a human achievement",
+        "grounding": "Paul states believers are 'justified by his grace as a gift' (v. 24) — the initiative, basis, and cost of justification all belong to God, leaving no room for human boasting."
+      },
+      {
+        "statement": "God is both perfectly just and the one who justifies sinners",
+        "grounding": "The passage culminates with the paradox that God is 'just and the justifier of the one who has faith in Jesus' (v. 26) — the cross resolves the tension between God's justice and his mercy."
+      },
+      {
+        "statement": "Christ's sacrificial death is the sole ground of right standing before God",
+        "grounding": "God put Christ forward as a hilasterion 'by his blood' (v. 25) — there is no alternative means of atonement; the blood of Christ is the necessary and sufficient basis for forgiveness."
+      }
+    ],
+    "prompts": [
+      {
+        "category": "belief",
+        "text": "Do I truly believe that my standing before God rests entirely on Christ's finished work, or do I subtly rely on my own moral performance for assurance?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "Since justification is a free gift, what habit of self-reliance or self-condemnation do I need to surrender to God's grace this week?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "prayer",
+        "text": "Lord, thank you that you are both just and the justifier. Help me to rest in the sufficiency of Christ's blood and stop trying to add my own merit to what you have freely given.",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "community",
+        "text": "How does the truth that 'there is no distinction' (v. 22) challenge divisions in our church or group based on background, ethnicity, or perceived spiritual maturity?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "belief",
+        "text": "How does understanding Christ as the 'mercy seat' (hilasterion) deepen my view of the cross beyond a general notion of 'Jesus died for me'?",
+        "conditional": false,
+        "condition_note": null
+      }
+    ]
+  }
+}

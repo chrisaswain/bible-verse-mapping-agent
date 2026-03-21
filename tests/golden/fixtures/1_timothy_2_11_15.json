@@ -1,0 +1,280 @@
+{
+  "reference": "1 Timothy 2:11-15",
+  "step1_context": {
+    "reference": {
+      "raw": "1 Timothy 2:11-15",
+      "spans": [{"book": "1 Timothy", "chapter": 2, "verse_start": 11, "verse_end": 15}]
+    },
+    "context_window": [
+      {"book": "1 Timothy", "chapter": 2, "verse_start": 1, "verse_end": null},
+      {"book": "1 Timothy", "chapter": 3, "verse_start": 1, "verse_end": 7}
+    ],
+    "flow_summary": "Paul gives instructions for orderly community worship: prayer for all people and rulers (2:1-7), instructions for men to pray without anger (2:8), guidance on women's adornment and conduct (2:9-15), then qualifications for overseers and deacons (3:1-7). The passage under study falls within Paul's directives about congregational conduct, addressing how women should learn and the limits of their authoritative teaching role in the Ephesian context.",
+    "genre": "Epistle (pastoral)",
+    "genre_rationale": "1 Timothy is a pastoral epistle — a letter from Paul to his delegate Timothy addressing church order, false teaching, and congregational conduct in Ephesus.",
+    "redemptive_historical_tag": "Church",
+    "redemptive_historical_rationale": "These instructions belong to the post-Pentecost era of the early church, where apostolic leaders were establishing norms for gathered worship communities amid cultural and doctrinal challenges."
+  },
+  "step2_translations": {
+    "always_included": true,
+    "renderings": [
+      {"translation": "KJV", "text": "Let the woman learn in silence with all subjection. But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. For Adam was first formed, then Eve. And Adam was not deceived, but the woman being deceived was in the transgression. Notwithstanding she shall be saved in childbearing, if they continue in faith and charity and holiness with sobriety."},
+      {"translation": "ESV", "text": "Let a woman learn quietly with all submissiveness. I do not permit a woman to teach or to exercise authority over a man; rather, she is to remain quiet. For Adam was formed first, then Eve; and Adam was not deceived, but the woman was deceived and became a transgressor. Yet she will be saved through childbearing\u2014if they continue in faith and love and holiness, with self-control."},
+      {"translation": "NIV", "text": "A woman should learn in quietness and full submission. I do not permit a woman to teach or to assume authority over a man; she must be quiet. For Adam was formed first, then Eve. And Adam was not the one deceived; it was the woman who was deceived and became a sinner. But women will be saved through childbearing\u2014if they continue in faith, love and holiness with propriety."}
+    ],
+    "variant_signals": [
+      {
+        "keyword": "usurp authority / exercise authority / assume authority",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "The Greek authentein (a NT hapax legomenon) is rendered 'usurp authority' (KJV, implying illegitimate seizure), 'exercise authority' (ESV, a neutral act), or 'assume authority' (NIV, suggesting self-appointment). The translation chosen significantly shapes whether the prohibition targets all female authority or only its abusive form."
+      },
+      {
+        "keyword": "silence / quietness",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV uses 'silence' (absolute), while ESV has 'quietly' and NIV 'quietness' — the Greek hesychia denotes a calm, receptive demeanor rather than total speechlessness, which affects how broadly the restriction is applied."
+      },
+      {
+        "keyword": "saved through childbearing",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "All three retain 'saved through childbearing' but the meaning is heavily debated: soteriological salvation, preservation through the process of childbirth, or a reference to the birth of Christ (the Seed of the woman). The ambiguity remains across translations."
+      }
+    ],
+    "impact_summary": "The most consequential translation difference is the rendering of authentein — a word appearing only here in the entire NT. 'Usurp authority' (KJV) implies the problem is illegitimate domineering, while 'exercise authority' (ESV) frames it as any authoritative role. The NIV's 'assume authority' sits between the two. Combined with the silence/quietness variation, these differences determine whether the text is read as a universal prohibition on women teaching men or as a corrective against a specific Ephesian abuse. The 'saved through childbearing' phrase adds further interpretive complexity across all traditions."
+  },
+  "step3_keywords": {
+    "keywords": [
+      {
+        "keyword": "exercise authority",
+        "lemma": "\u03b1\u1f50\u03b8\u03b5\u03bd\u03c4\u03ad\u03c9",
+        "transliteration": "authenteo",
+        "lexical_id": "G831",
+        "language": "Greek",
+        "gloss_range": ["to domineer", "to exercise authority", "to usurp authority", "to act on one's own authority"],
+        "usage_examples": [
+          {"reference": "1 Timothy 2:12", "snippet": "I do not permit a woman to teach or to exercise authority over a man"}
+        ],
+        "possible_meanings": ["to exercise legitimate authority", "to domineer or usurp", "to act in an overbearing manner", "to assume unauthorized authority"],
+        "meaning_in_context": "Given its NT hapax status and extra-biblical usage ranging from 'domineer' to 'murder' in earlier texts, the word likely carries a negative connotation — Paul prohibits a domineering or self-assumed authority rather than all forms of leadership. The soft-egalitarian reading sees this as correcting an abuse in Ephesus, not instituting a universal ban.",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "quietness",
+        "lemma": "\u1f21\u03c3\u03c5\u03c7\u03af\u03b1",
+        "transliteration": "hesychia",
+        "lexical_id": "G2271",
+        "language": "Greek",
+        "gloss_range": ["quietness", "silence", "stillness", "restfulness"],
+        "usage_examples": [
+          {"reference": "2 Thessalonians 3:12", "snippet": "to work in quietness and to earn their own living"},
+          {"reference": "1 Timothy 2:2", "snippet": "that we may lead a peaceful and quiet life"},
+          {"reference": "Acts 22:2", "snippet": "they became even more quiet"}
+        ],
+        "possible_meanings": ["absolute silence", "calm and peaceable demeanor", "non-disruptive learning posture"],
+        "meaning_in_context": "In this context hesychia describes a receptive, non-disruptive learning posture rather than absolute speechlessness. Paul uses the same root in 2:2 to describe the peaceful life all believers should lead, suggesting 'quietness' as an attitude of teachability.",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "learn",
+        "lemma": "\u03bc\u03b1\u03bd\u03b8\u03ac\u03bd\u03c9",
+        "transliteration": "manthano",
+        "lexical_id": "G3129",
+        "language": "Greek",
+        "gloss_range": ["to learn", "to be instructed", "to come to understand"],
+        "usage_examples": [
+          {"reference": "Philippians 4:11", "snippet": "I have learned in whatever situation I am to be content"},
+          {"reference": "Matthew 11:29", "snippet": "learn from me, for I am gentle and lowly in heart"},
+          {"reference": "2 Timothy 3:7", "snippet": "always learning and never able to arrive at a knowledge of the truth"}
+        ],
+        "possible_meanings": ["to be a disciple", "to acquire knowledge through instruction", "to gain understanding"],
+        "meaning_in_context": "The imperative 'let a woman learn' is a remarkable positive command in a first-century context — Paul affirms that women should receive theological instruction, a counter-cultural stance that presupposes their capacity for and right to doctrinal education.",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "submissiveness",
+        "lemma": "\u1f51\u03c0\u03bf\u03c4\u03b1\u03b3\u03ae",
+        "transliteration": "hupotage",
+        "lexical_id": "G5292",
+        "language": "Greek",
+        "gloss_range": ["submission", "subjection", "obedience"],
+        "usage_examples": [
+          {"reference": "2 Corinthians 9:13", "snippet": "by the submission of your confession to the gospel"},
+          {"reference": "Galatians 2:5", "snippet": "to them we did not yield in submission even for a moment"}
+        ],
+        "possible_meanings": ["voluntary subordination", "compliance to authority", "orderly deference"],
+        "meaning_in_context": "Here hupotage describes the attitude with which women should learn — an orderly, receptive posture expected of any student toward a teacher, not necessarily a gender-specific hierarchy. Paul uses the same word for submission to the gospel in other contexts.",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "saved through childbearing",
+        "lemma": "\u03c3\u03ce\u03b6\u03c9 / \u03c4\u03b5\u03ba\u03bd\u03bf\u03b3\u03bf\u03bd\u03af\u03b1",
+        "transliteration": "sozo / teknogonia",
+        "lexical_id": "G4982 / G5042",
+        "language": "Greek",
+        "gloss_range": ["to save, to deliver / childbearing, childbirth"],
+        "usage_examples": [
+          {"reference": "1 Timothy 2:15", "snippet": "she will be saved through childbearing"},
+          {"reference": "1 Timothy 4:16", "snippet": "you will save both yourself and your hearers"}
+        ],
+        "possible_meanings": ["spiritual salvation via the birth of Christ (the Seed)", "physical preservation through childbirth", "fulfillment in the domestic vocation", "eschatological salvation evidenced by faithful mothering"],
+        "meaning_in_context": "The phrase is among the most debated in the Pauline corpus. A leading soft-egalitarian reading sees 'the childbearing' (with the Greek article) as a reference to the birth of the Messiah — women are saved through THE childbearing, i.e., the incarnation — consistent with Paul's soteriology of grace through faith (reinforced by 'if they continue in faith').",
+        "influenced_by_translation_diff": false
+      }
+    ]
+  },
+  "step4_crossrefs": {
+    "edges": [
+      {
+        "source": "1 Timothy 2:11-15",
+        "target": "1 Corinthians 14:34-35",
+        "relationship_types": ["verbal_parallel", "thematic_parallel"],
+        "score": 88,
+        "score_breakdown": {"lexical": 20, "thematic": 25, "structural": 18, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "The women should keep silent in the churches. For they are not permitted to speak, but should be in submission."
+      },
+      {
+        "source": "1 Timothy 2:11-15",
+        "target": "Galatians 3:28",
+        "relationship_types": ["theological_tension", "thematic_parallel"],
+        "score": 85,
+        "score_breakdown": {"lexical": 8, "thematic": 25, "structural": 20, "theological": 22},
+        "provenance": "openbible",
+        "snippet": "There is neither male nor female, for you are all one in Christ Jesus."
+      },
+      {
+        "source": "1 Timothy 2:11-15",
+        "target": "Acts 18:26",
+        "relationship_types": ["narrative_illustration", "thematic_parallel"],
+        "score": 80,
+        "score_breakdown": {"lexical": 12, "thematic": 24, "structural": 20, "theological": 24},
+        "provenance": "agent",
+        "snippet": "Priscilla and Aquila took him aside and explained to him the way of God more accurately."
+      },
+      {
+        "source": "1 Timothy 2:11-15",
+        "target": "Romans 16:1-7",
+        "relationship_types": ["thematic_parallel", "theological_development"],
+        "score": 78,
+        "score_breakdown": {"lexical": 8, "thematic": 24, "structural": 22, "theological": 24},
+        "provenance": "agent",
+        "snippet": "I commend to you our sister Phoebe, a servant of the church at Cenchreae... Greet Andronicus and Junia... they are well known to the apostles."
+      },
+      {
+        "source": "1 Timothy 2:11-15",
+        "target": "Genesis 2:18-23",
+        "relationship_types": ["allusion", "typological"],
+        "score": 82,
+        "score_breakdown": {"lexical": 10, "thematic": 22, "structural": 25, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "Then the LORD God said, 'It is not good that the man should be alone; I will make him a helper fit for him.'"
+      },
+      {
+        "source": "1 Timothy 2:11-15",
+        "target": "Genesis 3:1-6",
+        "relationship_types": ["allusion", "typological"],
+        "score": 84,
+        "score_breakdown": {"lexical": 12, "thematic": 22, "structural": 25, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "The serpent said to the woman, 'You will not surely die.' ... She took of its fruit and ate, and she also gave some to her husband."
+      },
+      {
+        "source": "1 Timothy 2:11-15",
+        "target": "Titus 2:3-5",
+        "relationship_types": ["thematic_parallel", "structural_parallel"],
+        "score": 76,
+        "score_breakdown": {"lexical": 18, "thematic": 22, "structural": 18, "theological": 18},
+        "provenance": "openbible",
+        "snippet": "Older women likewise are to be reverent in behavior... they are to teach what is good, and so train the young women."
+      },
+      {
+        "source": "1 Timothy 2:11-15",
+        "target": "1 Corinthians 11:5",
+        "relationship_types": ["theological_tension", "thematic_parallel"],
+        "score": 79,
+        "score_breakdown": {"lexical": 12, "thematic": 22, "structural": 22, "theological": 23},
+        "provenance": "agent",
+        "snippet": "Every wife who prays or prophesies with her head uncovered dishonors her head."
+      }
+    ],
+    "clusters": [
+      {
+        "name": "Silence and Submission in Worship",
+        "rationale": "Passages that address women's speech and conduct in gathered worship settings, forming the primary intra-Pauline parallel",
+        "edges": ["1 Corinthians 14:34-35", "1 Corinthians 11:5"]
+      },
+      {
+        "name": "Equality in Christ",
+        "rationale": "Texts affirming the spiritual equality and active ministry of women, creating a theological tension that interpreters must resolve",
+        "edges": ["Galatians 3:28", "Acts 18:26", "Romans 16:1-7"]
+      },
+      {
+        "name": "Creation and Fall Narrative",
+        "rationale": "Old Testament passages Paul explicitly alludes to as the theological grounding for his instructions — the order of creation and the deception of Eve",
+        "edges": ["Genesis 2:18-23", "Genesis 3:1-6"]
+      },
+      {
+        "name": "Women Teaching in the Church",
+        "rationale": "Parallel pastoral instruction on women's teaching roles that illuminates the scope and limits of the prohibition",
+        "edges": ["Titus 2:3-5"]
+      }
+    ]
+  },
+  "step5_application": {
+    "principles": [
+      {
+        "statement": "Women are affirmed as learners and participants in theological education",
+        "grounding": "Paul's imperative 'let a woman learn' (v. 11) was counter-cultural in the first century and establishes the dignity and capacity of women to receive doctrinal instruction."
+      },
+      {
+        "statement": "All believers should cultivate a posture of humble, teachable receptivity",
+        "grounding": "The call to learn in 'quietness and full submission' (hesychia and hupotage) describes a learner's disposition — attentive, respectful, and non-contentious — that applies broadly to how any disciple approaches instruction."
+      },
+      {
+        "statement": "Authority in the church must never be exercised in a domineering or self-appointed manner",
+        "grounding": "The rare word authentein carries connotations of seizing or overstepping authority. Whether applied to women specifically or to church leaders generally, the text warns against unaccountable, heavy-handed leadership."
+      },
+      {
+        "statement": "Interpreting difficult texts requires humility, awareness of cultural context, and charity toward those who disagree",
+        "grounding": "The significant translation differences (e.g., authentein, 'saved through childbearing') and the tension with passages like Galatians 3:28 and Romans 16:1-7 demonstrate that faithful Christians can arrive at different applications while upholding the authority of Scripture."
+      }
+    ],
+    "prompts": [
+      {
+        "category": "belief",
+        "text": "How does Paul's command that women should learn reshape my assumptions about the value Scripture places on women's theological formation?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "Am I cultivating a posture of hesychia — calm, teachable receptivity — when I sit under the teaching of Scripture, regardless of my gender?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "prayer",
+        "text": "Lord, grant our church wisdom to honor both the gifting of all your people and the good order you desire in gathered worship, especially where faithful believers disagree on application.",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "community",
+        "text": "What structures does our church have to encourage and equip women for theological study, teaching, and leadership in areas where they are gifted?",
+        "conditional": true,
+        "condition_note": "The scope of women's teaching and leadership roles is debated among scholars. Complementarians restrict authoritative teaching over men to male elders; egalitarians see the restriction as situational to Ephesus. This prompt assumes a soft-egalitarian posture that encourages broad participation while respecting local church conviction."
+      },
+      {
+        "category": "community",
+        "text": "How does our community navigate disagreements about gender roles with grace, ensuring that differing convictions do not become grounds for division or dismissal?",
+        "conditional": true,
+        "condition_note": "Application varies significantly depending on whether one reads authentein as a universal prohibition or a context-specific correction. Both complementarian and egalitarian readings have serious scholarly support; local churches should pursue unity in essentials and charity in disputable matters."
+      },
+      {
+        "category": "belief",
+        "text": "How do I hold together Paul's restriction in 1 Timothy 2:12 with his affirmation of Priscilla's teaching (Acts 18:26), Phoebe's service (Romans 16:1), and the principle of Galatians 3:28?",
+        "conditional": true,
+        "condition_note": "The apparent tension between these texts is a key hermeneutical challenge. Soft-egalitarians resolve it by reading 1 Timothy 2 as addressing a specific Ephesian situation rather than establishing a timeless universal rule. Complementarians harmonize them by distinguishing between formal authoritative teaching and informal or private instruction."
+      }
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "reference": "Genesis 22",
+  "step1_context": {
+    "reference": {
+      "raw": "Genesis 22",
+      "spans": [{"book": "Genesis", "chapter": 22, "verse_start": 1, "verse_end": 24}]
+    },
+    "context_window": [
+      {"book": "Genesis", "chapter": 21, "verse_start": 12, "verse_end": 34},
+      {"book": "Genesis", "chapter": 22, "verse_start": 1, "verse_end": 24},
+      {"book": "Genesis", "chapter": 23, "verse_start": 1, "verse_end": 10}
+    ],
+    "flow_summary": "After God secures the promised line through Isaac's birth and Ishmael's departure (21:12-21), God tests Abraham by commanding him to offer Isaac as a burnt offering on Mount Moriah. Abraham obeys in faith, binds Isaac on the altar, and raises the knife — but the angel of the LORD intervenes, providing a ram as a substitute. God reaffirms the covenant promises with an oath (22:15-18). The chapter closes with genealogical notes about Nahor's family (22:20-24), and the broader context moves into Sarah's death and burial (23:1-10).",
+    "genre": "Narrative",
+    "genre_rationale": "Genesis 22 is historical narrative — a carefully structured account of a specific event in Abraham's life, with scene-setting, dialogue, rising tension, divine intervention, and resolution.",
+    "redemptive_historical_tag": "Promise",
+    "redemptive_historical_rationale": "The Aqedah stands within the Abrahamic covenant cycle. God's provision of the ram and the sworn reaffirmation of the promises (seed, land, blessing to the nations) advance the 'Promise' thread of redemptive history that ultimately points to the sacrificial provision of Christ."
+  },
+  "step2_translations": {
+    "always_included": true,
+    "renderings": [
+      {"translation": "KJV", "text": "And it came to pass after these things, that God did tempt Abraham, and said unto him, Abraham: and he said, Behold, here I am."},
+      {"translation": "ESV", "text": "After these things God tested Abraham and said to him, \"Abraham!\" And he said, \"Here I am.\""},
+      {"translation": "NIV", "text": "Some time later God tested Abraham. He said to him, \"Abraham!\" \"Here I am,\" he replied."}
+    ],
+    "variant_signals": [
+      {
+        "keyword": "tempt / tested",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV uses 'tempt' (older English sense of 'test/prove'), while ESV and NIV use 'tested.' The Hebrew nasah means to prove or assay, not to entice to sin — modern translations clarify this important theological distinction (cf. James 1:13)."
+      },
+      {
+        "keyword": "provide / see",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "In 22:8 and 22:14, the Hebrew yireh (from ra'ah, 'to see') is rendered 'provide' (KJV/NIV) or 'provide/see' (ESV footnote). The dual meaning — God sees the need and provides the answer — is theologically rich and underlies the naming of the place 'YHWH-Yireh.'"
+      },
+      {
+        "keyword": "only son / only begotten son",
+        "translations_differ": ["KJV", "ESV", "NIV"],
+        "impact": "KJV renders yachid as 'thine only son,' ESV as 'your only son,' NIV similarly 'your only son.' The term yachid emphasizes unique preciousness rather than sole offspring (Ishmael existed), connecting typologically to monogenes in John 3:16."
+      }
+    ],
+    "impact_summary": "The three key translation variants — 'tempt' vs. 'tested,' the semantic range of 'see/provide,' and the rendering of 'only son' — each carry significant theological weight. The shift from 'tempt' to 'tested' guards against misunderstanding God's character. The see/provide wordplay in YHWH-Yireh captures the heart of the passage's theology of divine provision. And 'only son' (yachid) sets up the New Testament typological link to Christ as God's monogenes."
+  },
+  "step3_keywords": {
+    "keywords": [
+      {
+        "keyword": "tested",
+        "lemma": "\u05e0\u05b8\u05e1\u05b8\u05d4",
+        "transliteration": "nasah",
+        "lexical_id": "H5254",
+        "language": "Hebrew",
+        "gloss_range": ["to test", "to prove", "to try", "to assay"],
+        "usage_examples": [
+          {"reference": "Exodus 16:4", "snippet": "that I may test them, whether they will walk in my law or not"},
+          {"reference": "Deuteronomy 8:2", "snippet": "to humble you, testing you to know what was in your heart"},
+          {"reference": "Judges 2:22", "snippet": "to test Israel by them, whether they will keep the way of the LORD"}
+        ],
+        "possible_meanings": ["to prove the quality of someone's faith", "to test by trial", "to refine through adversity"],
+        "meaning_in_context": "God subjected Abraham to a supreme trial — not to entice him to sin, but to prove and display the genuineness of his faith and obedience, revealing what was already in his heart.",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "provide/see",
+        "lemma": "\u05d9\u05b4\u05e8\u05b0\u05d0\u05b6\u05d4",
+        "transliteration": "yireh",
+        "lexical_id": "H7200",
+        "language": "Hebrew",
+        "gloss_range": ["to see", "to look", "to appear", "to provide", "to perceive"],
+        "usage_examples": [
+          {"reference": "Genesis 16:13", "snippet": "You are a God of seeing... Have I really seen him who looks after me?"},
+          {"reference": "1 Samuel 16:1", "snippet": "I have provided for myself a king among his sons"},
+          {"reference": "Psalm 37:25", "snippet": "I have not seen the righteous forsaken"}
+        ],
+        "possible_meanings": ["to see a need and act upon it", "to provide by foreseeing", "to appear or make oneself visible"],
+        "meaning_in_context": "In 22:8 Abraham declares 'God will provide (see to) the lamb,' and in 22:14 he names the place YHWH-Yireh ('the LORD will see/provide'). The wordplay captures God's sovereign awareness of the need and His faithful provision of a substitute.",
+        "influenced_by_translation_diff": true
+      },
+      {
+        "keyword": "only son",
+        "lemma": "\u05d9\u05b8\u05d7\u05b4\u05d9\u05d3",
+        "transliteration": "yachid",
+        "lexical_id": "H3173",
+        "language": "Hebrew",
+        "gloss_range": ["only", "only one", "unique", "beloved", "precious"],
+        "usage_examples": [
+          {"reference": "Jeremiah 6:26", "snippet": "mourning as for an only son"},
+          {"reference": "Amos 8:10", "snippet": "like the mourning for an only son"},
+          {"reference": "Zechariah 12:10", "snippet": "mourn for him as one mourns for an only child"}
+        ],
+        "possible_meanings": ["sole and irreplaceable child", "uniquely precious one", "beloved one set apart"],
+        "meaning_in_context": "Isaac is called Abraham's yachid — his uniquely beloved, irreplaceable son of promise — even though Ishmael also lived. The term emphasizes the singular preciousness and covenantal significance of Isaac, forming the typological basis for the NT designation of Jesus as monogenes (John 3:16, Hebrews 11:17).",
+        "influenced_by_translation_diff": false
+      },
+      {
+        "keyword": "burnt offering",
+        "lemma": "\u05e2\u05b9\u05dc\u05b8\u05d4",
+        "transliteration": "olah",
+        "lexical_id": "H5930",
+        "language": "Hebrew",
+        "gloss_range": ["burnt offering", "whole burnt offering", "ascent offering"],
+        "usage_examples": [
+          {"reference": "Leviticus 1:3", "snippet": "he shall offer a male without blemish... a burnt offering"},
+          {"reference": "1 Samuel 7:9", "snippet": "Samuel offered a whole burnt offering to the LORD"},
+          {"reference": "Psalm 51:19", "snippet": "then will you delight in right sacrifices, in burnt offerings"}
+        ],
+        "possible_meanings": ["a sacrifice wholly consumed by fire", "an offering of total dedication", "an ascending offering symbolizing complete consecration"],
+        "meaning_in_context": "God's command specifies a burnt offering — the most complete form of sacrifice, entirely consumed on the altar — underscoring the totality of what is being asked of Abraham and foreshadowing the complete self-offering of Christ.",
+        "influenced_by_translation_diff": false
+      }
+    ]
+  },
+  "step4_crossrefs": {
+    "edges": [
+      {
+        "source": "Genesis 22:2",
+        "target": "John 3:16",
+        "relationship_types": ["typological", "thematic_parallel"],
+        "score": 90,
+        "score_breakdown": {"lexical": 15, "thematic": 25, "structural": 25, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life."
+      },
+      {
+        "source": "Genesis 22:1-2",
+        "target": "Hebrews 11:17-19",
+        "relationship_types": ["direct_citation", "theological_development"],
+        "score": 97,
+        "score_breakdown": {"lexical": 23, "thematic": 25, "structural": 24, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "By faith Abraham, when he was tested, offered up Isaac... He considered that God was able even to raise him from the dead, from which, figuratively speaking, he did receive him back."
+      },
+      {
+        "source": "Genesis 22:2",
+        "target": "Romans 8:32",
+        "relationship_types": ["typological", "verbal_parallel"],
+        "score": 91,
+        "score_breakdown": {"lexical": 18, "thematic": 25, "structural": 23, "theological": 25},
+        "provenance": "openbible",
+        "snippet": "He who did not spare his own Son but gave him up for us all, how will he not also with him graciously give us all things?"
+      },
+      {
+        "source": "Genesis 22:1",
+        "target": "James 2:21-23",
+        "relationship_types": ["direct_citation", "thematic_parallel"],
+        "score": 88,
+        "score_breakdown": {"lexical": 18, "thematic": 25, "structural": 22, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "Was not Abraham our father justified by works when he offered up his son Isaac on the altar? ...and the Scripture was fulfilled that says, 'Abraham believed God, and it was counted to him as righteousness.'"
+      },
+      {
+        "source": "Genesis 22:14",
+        "target": "John 1:29",
+        "relationship_types": ["typological", "thematic_parallel"],
+        "score": 80,
+        "score_breakdown": {"lexical": 12, "thematic": 23, "structural": 20, "theological": 25},
+        "provenance": "agent",
+        "snippet": "Behold, the Lamb of God, who takes away the sin of the world!"
+      },
+      {
+        "source": "Genesis 22:16-18",
+        "target": "Galatians 3:8-9",
+        "relationship_types": ["direct_citation", "theological_development"],
+        "score": 85,
+        "score_breakdown": {"lexical": 20, "thematic": 23, "structural": 20, "theological": 22},
+        "provenance": "openbible",
+        "snippet": "And the Scripture, foreseeing that God would justify the Gentiles by faith, preached the gospel beforehand to Abraham, saying, 'In you shall all the nations be blessed.'"
+      },
+      {
+        "source": "Genesis 22:8",
+        "target": "Isaiah 53:7",
+        "relationship_types": ["typological", "thematic_parallel"],
+        "score": 76,
+        "score_breakdown": {"lexical": 10, "thematic": 22, "structural": 19, "theological": 25},
+        "provenance": "agent",
+        "snippet": "He was oppressed, and he was afflicted, yet he opened not his mouth; like a lamb that is led to the slaughter."
+      },
+      {
+        "source": "Genesis 22:12",
+        "target": "Genesis 15:6",
+        "relationship_types": ["thematic_parallel", "narrative_progression"],
+        "score": 82,
+        "score_breakdown": {"lexical": 15, "thematic": 24, "structural": 20, "theological": 23},
+        "provenance": "openbible",
+        "snippet": "And he believed the LORD, and he counted it to him as righteousness."
+      }
+    ],
+    "clusters": [
+      {
+        "name": "God's Sacrifice of His Only Son",
+        "rationale": "Passages where the offering of Abraham's only son typologically prefigures the Father giving His only Son for the world",
+        "edges": ["John 3:16", "Romans 8:32"]
+      },
+      {
+        "name": "Faith Demonstrated Through Obedience",
+        "rationale": "Passages that interpret Abraham's obedience at Moriah as the supreme demonstration of genuine faith",
+        "edges": ["Hebrews 11:17-19", "James 2:21-23", "Genesis 15:6"]
+      },
+      {
+        "name": "The Lamb God Provides",
+        "rationale": "Passages connecting God's provision of a substitute sacrifice on Moriah to the ultimate Lamb of God",
+        "edges": ["John 1:29", "Isaiah 53:7"]
+      },
+      {
+        "name": "Covenant Promise to the Nations",
+        "rationale": "Passages linking the sworn covenant reaffirmation after the Aqedah to the blessing of all nations through Abraham's seed",
+        "edges": ["Galatians 3:8-9"]
+      }
+    ]
+  },
+  "step5_application": {
+    "principles": [
+      {
+        "statement": "God tests faith not to destroy it but to prove and strengthen it",
+        "grounding": "God's command was a test (nasah), not a temptation. He never intended Isaac to die — the test was designed to bring Abraham's faith to full maturity and public demonstration (22:1, 12)."
+      },
+      {
+        "statement": "Radical obedience flows from trust in God's character and promises",
+        "grounding": "Abraham obeyed immediately ('rose early in the morning,' 22:3) and told Isaac 'God will provide' (22:8). Hebrews 11:19 reveals he reasoned that God could raise the dead — his obedience was grounded in trust, not blind resignation."
+      },
+      {
+        "statement": "God provides the substitute sacrifice at the point of greatest need",
+        "grounding": "The ram caught in the thicket appeared at the precise moment of crisis (22:13). Abraham named the place YHWH-Yireh — 'the LORD will provide' — enshrining the principle that God sees the need and meets it with His own provision."
+      }
+    ],
+    "prompts": [
+      {
+        "category": "belief",
+        "text": "Do I believe that God's tests are purposeful — aimed at refining and proving my faith rather than destroying it? How does the distinction between testing and tempting reshape my view of difficult seasons?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "response",
+        "text": "Is there something God has asked me to surrender — a relationship, ambition, comfort, or plan — that I am clinging to more tightly than I cling to Him? What would 'rising early in the morning' obedience look like in my situation?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "prayer",
+        "text": "Father, like Abraham I confess that some of your commands feel impossible. Strengthen my trust in your character so that I can obey even when I cannot see the provision. Thank you that you are YHWH-Yireh — the God who sees and provides.",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "community",
+        "text": "How can our community walk alongside someone who is in a season of testing — helping them trust God's provision without minimizing the cost of their obedience?",
+        "conditional": false,
+        "condition_note": null
+      },
+      {
+        "category": "belief",
+        "text": "How does the Aqedah deepen my understanding of John 3:16 and Romans 8:32 — that what God spared Abraham from doing, He did not spare Himself from doing with His own Son?",
+        "conditional": false,
+        "condition_note": null
+      }
+    ]
+  }
+}
