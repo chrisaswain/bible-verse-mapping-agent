@@ -2,6 +2,11 @@
 
 Spec-driven implementation of a Biblical Verse Mapping AI Agent.
 
+## Agent Definition
+
+- Agent: `agents/verse-mapping/AGENT.md`
+- Study notes output: `C:\Users\swaic013\Documents\Personal\Bible Study\`
+
 ## Architecture
 
 5-step pipeline: Context -> Translations -> Keywords -> Cross-References -> Application
